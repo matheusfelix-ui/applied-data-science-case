@@ -1,0 +1,9 @@
+série,teste,H0,estatística,p,detalhe
+Máquina 1,"sup-Wald de Andrews (HAC), 1 quebra de nível",sem quebra de nível,30.6103,0,data estimada 14/05/2024; salto +3.6/dia; VC 5% = 8.63
+Máquina 1,OLS-CUSUM (resíduos de y ~ dia da semana),parâmetros estáveis,3.1729,3.60338e-09,sensível a mudanças de média ao longo do tempo
+Máquina 1,Razão de verossimilhança NB2 (3 dummies de regime),todas as dummies = 0,102.486,4.53825e-22,"IRR: regime_1 = 1.61, regime_2 = 0.64, regime_3 = 1.98"
+Máquina 1,Razão de verossimilhança Poisson (3 dummies),todas as dummies = 0,265.012,3.70348e-57,referência; a NB2 acomoda a sobredispersão
+Total,"sup-Wald de Andrews (HAC), 1 quebra de nível",sem quebra de nível,26.8266,0,data estimada 14/05/2024; salto +4.2/dia; VC 5% = 8.63
+Total,OLS-CUSUM (resíduos de y ~ dia da semana),parâmetros estáveis,3.32529,4.97209e-10,sensível a mudanças de média ao longo do tempo
+Total,Razão de verossimilhança NB2 (3 dummies de regime),todas as dummies = 0,154.096,3.4437e-33,"IRR: regime_1 = 1.61, regime_2 = 0.67, regime_3 = 2.65"
+Total,Razão de verossimilhança Poisson (3 dummies),todas as dummies = 0,472.927,3.51053e-102,referência; a NB2 acomoda a sobredispersão

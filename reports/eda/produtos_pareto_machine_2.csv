@@ -1,0 +1,31 @@
+produto,transacoes,receita,% receita,% acumulado,posição,classe
+Americano with milk,44,1100,15.9652,15.9652,1,A
+Latte,24,792,11.4949,27.4601,2,A
+Irish whiskey,21,525,7.61974,35.0798,3,A
+Cappuccino,16,480,6.96662,42.0464,4,A
+Coffee with irish whiskey,16,464,6.7344,48.7808,5,A
+Irish whiskey with milk,15,405,5.87808,54.6589,6,A
+Americano,15,375,5.44267,60.1016,7,A
+Espresso,18,373,5.41364,65.5152,8,A
+Double irish whiskey,12,336,4.87663,70.3919,9,A
+Chocolate with milk,12,324,4.70247,75.0943,10,A
+Tea,16,240,3.48331,78.5776,11,A
+Caramel with irish whiskey,8,224,3.25109,81.8287,12,A
+Super chocolate,6,168,2.43832,84.2671,13,B
+Mochaccino,5,150,2.17707,86.4441,14,B
+Chocolate with coffee,5,150,2.17707,88.6212,15,B
+Irish with chocolate,5,135,1.95936,90.5806,16,B
+Caramel with chocolate,4,112,1.62554,92.2061,17,B
+Vanilla with irish whiskey,3,84,1.21916,93.4253,18,B
+Caramel with milk,3,75,1.08853,94.5138,19,B
+Double espresso with milk,2,64,0.928882,95.4427,20,B
+Caramel coffee,2,56,0.812772,96.2554,21,C
+Double vanilla,2,47,0.682148,96.9376,22,C
+Hot milkshake,1,30,0.435414,97.373,23,C
+Coffee with chocolate,1,28,0.406386,97.7794,24,C
+Double ristretto,1,27,0.391872,98.1713,25,C
+Double espresso,1,27,0.391872,98.5631,26,C
+Vanilla coffee,1,27,0.391872,98.955,27,C
+Double chocolate,1,25,0.362845,99.3179,28,C
+Chocolate,1,25,0.362845,99.6807,29,C
+Caramel,1,22,0.319303,100,30,C

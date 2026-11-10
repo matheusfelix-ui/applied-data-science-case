@@ -1,0 +1,16 @@
+{
+  "name": "coffee-sales-apresentacao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gera a apresentação executiva (PPTX) a partir dos relatórios do pipeline: python dados_deck.py && npm run deck",
+  "scripts": {
+    "deck": "node gerar_deck.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jszip": "3.10.2",
+    "pptxgenjs": "3.12.0"
+  }
+}

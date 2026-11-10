@@ -1,0 +1,24 @@
+# Versões exatas do ambiente em que os resultados foram gerados (Python 3.13.7).
+# Instalação: python3.13 -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+statsmodels==0.15.0
+pmdarima==2.1.1
+scikit-learn==1.9.1
+ruptures==1.1.10
+pymannkendall==1.4.3   # teste de tendência (src/eda/trend_seasonality.py)
+matplotlib==3.11.2
+seaborn==0.13.2
+pillow==13.0.0          # leitura das figuras (apresentação)
+joblib==1.6.0
+PyYAML==6.0.3
+pyarrow==26.0.1         # backend opcional do pandas; mantido para replicar o ambiente original
+kagglehub==1.0.3        # só usado se data/raw estiver vazia
+# Notebooks
+jupyter==1.1.1
+nbconvert==7.17.2
+ipykernel==7.4.0
+# Testes e apresentação
+pytest==9.2.0
+python-pptx==1.0.2      # opcional: inspeção do PPTX gerado (o deck é gerado em Node, ver reports/apresentacao/fonte)

@@ -1,0 +1,25 @@
+série,alvo,modelo,origens antes da quebra de 2025,origens em torno/depois da quebra de 2025
+Máquina 1,demanda,Holt-Winters,0.737639,0.812926
+Máquina 1,demanda,Média 4 semanas,0.832108,0.892727
+Máquina 1,demanda,Naive sazonal,1.05935,0.919234
+Máquina 1,demanda,Poisson/NB2,0.76384,1.12437
+Máquina 1,demanda,Random Forest,0.707928,1.01585
+Máquina 1,demanda,SARIMAX,0.729689,1.41052
+Máquina 1,receita,Holt-Winters,0.755365,0.94044
+Máquina 1,receita,Média 4 semanas,0.853778,0.883579
+Máquina 1,receita,Naive sazonal,1.08227,0.922042
+Máquina 1,receita,Poisson/NB2,0.775695,1.09452
+Máquina 1,receita,Random Forest,0.703583,0.932428
+Máquina 1,receita,SARIMAX,0.805746,1.37483
+Total,demanda,Holt-Winters,0.737639,1.18125
+Total,demanda,Média 4 semanas,0.832108,1.38104
+Total,demanda,Naive sazonal,1.05935,1.46406
+Total,demanda,Poisson/NB2,0.76384,1.10423
+Total,demanda,Random Forest,0.700735,1.32312
+Total,demanda,SARIMAX,0.729689,1.16258
+Total,receita,Holt-Winters,0.755365,1.05495
+Total,receita,Média 4 semanas,0.853778,1.25982
+Total,receita,Naive sazonal,1.08227,1.33427
+Total,receita,Poisson/NB2,0.775695,1.01048
+Total,receita,Random Forest,0.699359,1.20991
+Total,receita,SARIMAX,0.805746,1.12421

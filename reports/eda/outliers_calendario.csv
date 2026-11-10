@@ -1,0 +1,16 @@
+data,sentido,séries,dia da semana,calendário,feriado ou fim de semana
+2024-05-01,queda,Máquina 1 (zero vendas),qua,feriado,True
+2024-05-04,queda,Máquina 1 (zero vendas),sáb,fim de semana,True
+2024-05-05,queda,Máquina 1 (zero vendas),dom,fim de semana,True
+2024-10-11,pico,"Máquina 1 (demanda), Máquina 1 (receita), Total (demanda)",sex,dia útil,False
+2024-11-27,queda,Máquina 1 (zero vendas),qua,dia útil,False
+2024-12-26,queda,Total (demanda),qui,dia seguinte a feriado,True
+2025-01-01,queda,Máquina 1 (zero vendas),qua,feriado,True
+2025-01-19,queda,Máquina 1 (zero vendas),dom,fim de semana,True
+2025-01-23,queda,Máquina 1 (zero vendas),qui,dia útil,False
+2025-02-03,pico,"Máquina 1 (demanda), Total (demanda), Total (receita)",seg,dia útil,False
+2025-02-09,pico,Total (demanda),dom,fim de semana,True
+2025-02-20,pico,"Total (demanda), Total (receita)",qui,dia útil,False
+2025-02-21,pico,"Total (demanda), Total (receita)",sex,dia útil,False
+2025-02-26,pico,"Máquina 2 (demanda), Total (demanda), Total (receita)",qua,dia útil,False
+2025-03-03,pico,Total (receita),seg,dia útil,False

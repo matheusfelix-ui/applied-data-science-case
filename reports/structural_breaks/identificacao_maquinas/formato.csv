@@ -1,0 +1,10 @@
+,index_1,index_2
+colunas com identificador de cartão,sim,não
+horários com milissegundos,100%,0%
+preços com centavos,100%,0%
+preços distintos,4,10
+produtos distintos,8,30
+% em dinheiro (cash),0%,31%
+horários repetidos (grupos),0,7
+registros nesses grupos,0,15
+menor intervalo entre vendas (s),39.5,0.0

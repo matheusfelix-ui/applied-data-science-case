@@ -1,0 +1,9 @@
+exige mesmo produto,tolerância,casamentos observados (k = 0),% de index_2 casado,média sob a nula,máximo sob a nula,p empírico (H_dup: mais casamentos)
+não,±1 s,0,0,0.139535,2,1
+não,±5 s,2,0.763359,0.860465,3,0.272727
+não,±1 min,6,2.29008,7.62791,12,0.795455
+não,±5 min,32,12.2137,31.9302,46,0.5
+sim,±1 s,0,0,0,0,1
+sim,±5 s,0,0,0.0697674,1,1
+sim,±1 min,0,0,0.604651,2,1
+sim,±5 min,2,0.763359,2.53488,5,0.795455

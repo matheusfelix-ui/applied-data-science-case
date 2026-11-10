@@ -1,0 +1,14 @@
+teste,observado,H0 do teste,p,favorece,p (Holm)
+"4. Casamentos, mesmo produto, ±60 s",0 de 262 (acaso ≈ 0.6),acaso,1,H_nova (nada acima do acaso),1
+"4. Casamentos, qualquer produto, ±5 s",2 (acaso ≈ 0.9),acaso,0.272727,H_nova (nada acima do acaso),1
+4. Datas deslocadas (k dias),máximo 2 casamentos (k = 10); mediana 0,—,,H_nova (sem pico),
+5. Relógio deslocado (−12 h a +12 h),máx. 4 em -113 min; máximos nulos 3–6,acaso,0.75,H_nova (nada acima do acaso),1
+"5. Relógio deslocado, qualquer produto",máx. 17 em -169 min; máximos nulos 15–21,acaso,0.818182,H_nova (nada acima do acaso),1
+6. Subconjunto,23 violações em produtos comuns; 55% das vendas com produto inexistente em index_1,—,,H_nova (critério determinístico),
+7. Preços,razões 0.81–0.96 (CV 8%),—,,H_nova (sem fator único),
+8. Pagamento em dinheiro,index_1 0% × index_2 31%,proporções iguais,8.93959e-48,H_nova,8.04563e-47
+9. Mesmo equipamento físico,3 pares < 24 s (acaso ≈ 3.8),—,,H_nova (evidência fraca),
+10. Volume diário,ρ = -0.11,ρ = 0,0.818182,H_nova (sem dependência),1
+10. Volume dia × hora,ρ = 0.07,ρ = 0,0.795455,H_nova (sem dependência),1
+11. Perfil horário,V de Cramér = 0.23,perfis iguais,0.00019996,H_nova,0.00139972
+11. Perfil por dia da semana,V de Cramér = 0.28,perfis iguais,1.30191e-06,H_nova,1.04153e-05

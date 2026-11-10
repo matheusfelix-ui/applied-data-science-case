@@ -1,0 +1,6 @@
+grupo,início,fim,transações,ticket médio,% vendas a partir das 19h
+M1 · base anterior (mesma tabela),2024-10-06,2025-01-29,1075,32.4508,21.0233
+M1 · desde a quebra (todos),2025-01-30,2025-03-23,763,31.2774,9.43644
+"M1 · desde a quebra, cartões novos",2025-01-30,2025-03-23,689,31.4574,9.43396
+"M1 · desde a quebra, cartões antigos",2025-01-30,2025-03-21,74,29.6019,9.45946
+M2 · desde a abertura,2025-02-08,2025-03-23,262,26.2977,17.9389

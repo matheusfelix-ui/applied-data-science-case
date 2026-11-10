@@ -1,0 +1,8 @@
+,valor
+produtos em index_2 (período comum),30
+produtos de index_2 também vendidos por index_1 no período,5
+produtos de index_2 que nunca aparecem em index_1,25
+% das vendas de index_2 com produto inexistente em index_1,55.3435
+Jaccard dos cardápios no período,0.151515
+células dia × produto com index_2 > index_1 (produtos comuns),23
+dias com total de index_2 > total de index_1,4

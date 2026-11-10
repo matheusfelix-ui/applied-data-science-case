@@ -1,0 +1,9 @@
+produto,transacoes,receita,% receita,% acumulado,posição,classe
+Latte,782,27866.3,24.141,24.141,1,A
+Americano with milk,824,25269.1,21.891,46.032,2,A
+Cappuccino,501,18034.1,15.6232,61.6552,3,A
+Americano,578,15062.3,13.0486,74.7038,4,A
+Hot chocolate,282,10172.5,8.81255,83.5164,5,A
+Cocoa,243,8678.16,7.51801,91.0344,6,B
+Cortado,292,7534.86,6.52756,97.5619,7,B
+Espresso,134,2814.28,2.43805,100,8,C

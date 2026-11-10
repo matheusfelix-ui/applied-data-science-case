@@ -1,0 +1,7 @@
+série,alvo,IQR,MAD,z-score,condicional (dia da semana),resíduo STL,atípico
+Máquina 1,demanda,12,2,1,4,25,2
+Máquina 1,receita,8,1,2,2,24,1
+Máquina 2,demanda,2,0,0,1,8,1
+Máquina 2,receita,2,0,0,0,5,0
+Total,demanda,21,14,3,7,23,7
+Total,receita,19,4,4,4,31,5

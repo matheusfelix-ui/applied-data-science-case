@@ -1,0 +1,25 @@
+grupo,nº de atributos,aumento do MAE (média),aumento do MAE (DP),aumento relativo %,série,alvo
+janelas móveis (média/DP/CV),9,1.37571,0.243338,25.713,Máquina 1,demanda
+calendário e sazonalidade,12,-0.0106785,0.0472091,-0.19959,Máquina 1,demanda
+dummies de quebra e regimes,4,-0.0138578,0.00272728,-0.259013,Máquina 1,demanda
+defasagens (lag_k),7,-0.0410646,0.0184051,-0.76753,Máquina 1,demanda
+tendência (tempo),1,-0.0565647,0.0119104,-1.05724,Máquina 1,demanda
+comportamentais,6,-0.193506,0.0833461,-3.61678,Máquina 1,demanda
+janelas móveis (média/DP/CV),9,40.1525,8.19985,24.2894,Máquina 1,receita
+dummies de quebra e regimes,4,-0.356242,0.0639471,-0.215501,Máquina 1,receita
+defasagens (lag_k),7,-1.38836,1.01439,-0.83986,Máquina 1,receita
+tendência (tempo),1,-1.51656,0.28846,-0.917411,Máquina 1,receita
+calendário e sazonalidade,12,-1.5286,1.29114,-0.924695,Máquina 1,receita
+comportamentais,6,-3.12973,2.44902,-1.89326,Máquina 1,receita
+janelas móveis (média/DP/CV),9,2.66601,0.262873,34.1054,Total,demanda
+comportamentais,4,0.0916526,0.0462021,1.17248,Total,demanda
+dummies de quebra e regimes,5,-0.0359006,0.00317009,-0.459265,Total,demanda
+tendência (tempo),1,-0.0479771,0.0116026,-0.613756,Total,demanda
+defasagens (lag_k),7,-0.0503541,0.028894,-0.644165,Total,demanda
+calendário e sazonalidade,12,-0.142228,0.0380838,-1.81948,Total,demanda
+janelas móveis (média/DP/CV),9,87.4843,7.78601,41.982,Total,receita
+comportamentais,4,5.07691,1.63128,2.43631,Total,receita
+dummies de quebra e regimes,5,-0.0610623,0.0183339,-0.0293026,Total,receita
+calendário e sazonalidade,12,-1.83507,1.28249,-0.880616,Total,receita
+defasagens (lag_k),7,-2.96714,1.42445,-1.42387,Total,receita
+tendência (tempo),1,-3.06771,0.587333,-1.47213,Total,receita

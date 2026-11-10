@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+logs/
+data/processed/artefatos/
+.DS_Store
+catboost_info/
+.venv/
+node_modules/
+~$*
+*.tmp

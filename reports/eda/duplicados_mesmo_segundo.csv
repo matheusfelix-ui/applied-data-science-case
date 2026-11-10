@@ -1,0 +1,8 @@
+serie,segundo,itens,produtos,só produtos iguais,pagamento
+Máquina 2,2025-02-09 18:01:22,3,Tea + Americano with milk + Latte,False,card
+Máquina 2,2025-02-16 16:41:18,2,Double vanilla + Irish whiskey,False,cash
+Máquina 2,2025-02-20 09:36:06,2,Espresso + Americano with milk,False,cash
+Máquina 2,2025-02-22 18:38:38,2,Latte + Americano with milk,False,card
+Máquina 2,2025-02-26 09:41:12,2,Americano with milk + Americano with milk,True,cash
+Máquina 2,2025-03-02 12:48:05,2,Cappuccino + Coffee with chocolate,False,cash
+Máquina 2,2025-03-23 10:25:48,2,Americano with milk + Americano with milk,True,cash

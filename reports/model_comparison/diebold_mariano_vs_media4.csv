@@ -1,0 +1,31 @@
+modelo,série,alvo,DM (HLN),p,ΔMAE vs referência,p Holm,conclusão (5%)
+Naive sazonal,Máquina 1,demanda,0.915785,0.376455,0.321429,1,indistinguível
+Holt-Winters,Máquina 1,demanda,0.181216,0.858993,0.0622242,1,indistinguível
+SARIMAX,Máquina 1,demanda,0.649158,0.527539,0.146917,1,indistinguível
+Poisson/NB2,Máquina 1,demanda,1.86739,0.0845545,0.309554,0.422773,indistinguível
+Random Forest,Máquina 1,demanda,0.933719,0.367468,0.691107,1,indistinguível
+Naive sazonal,Máquina 1,receita,0.728729,0.479091,9.56929,1,indistinguível
+Holt-Winters,Máquina 1,receita,-0.0907339,0.929087,-1.16502,1,indistinguível
+SARIMAX,Máquina 1,receita,1.4067,0.182971,5.22318,0.914855,indistinguível
+Poisson/NB2,Máquina 1,receita,1.23703,0.237956,6.33834,0.951824,indistinguível
+Random Forest,Máquina 1,receita,0.685727,0.504931,14.0863,1,indistinguível
+Naive sazonal,Máquina 2,demanda,-0.243874,0.811135,-0.142857,0.811135,indistinguível
+Holt-Winters,Máquina 2,demanda,1.04931,0.313153,0.114296,0.626307,indistinguível
+SARIMAX,Máquina 2,demanda,-1.53721,0.148217,-0.510205,0.592869,indistinguível
+Poisson/NB2,Máquina 2,demanda,-1.49002,0.160078,-0.492,0.592869,indistinguível
+Random Forest,Máquina 2,demanda,-2.26327,0.0413807,-0.667213,0.206904,indistinguível
+Naive sazonal,Máquina 2,receita,-0.256595,0.801507,-4,0.801507,indistinguível
+Holt-Winters,Máquina 2,receita,1.275,0.224624,4.33777,0.449248,indistinguível
+SARIMAX,Máquina 2,receita,-1.82709,0.0907255,-16.5933,0.361984,indistinguível
+Poisson/NB2,Máquina 2,receita,-1.82855,0.0904961,-16.6166,0.361984,indistinguível
+Random Forest,Máquina 2,receita,-2.66509,0.0194453,-20.2864,0.0972264,indistinguível
+Naive sazonal,Total,demanda,1.33029,0.20629,0.928571,0.825159,indistinguível
+Holt-Winters,Total,demanda,-0.0194497,0.984778,-0.00925215,1,indistinguível
+SARIMAX,Total,demanda,-0.111111,0.913225,-0.0848729,1,indistinguível
+Poisson/NB2,Total,demanda,2.49752,0.0267134,0.347018,0.133567,indistinguível
+Random Forest,Total,demanda,-0.688966,0.502956,-0.338806,1,indistinguível
+Naive sazonal,Total,receita,1.35277,0.199191,31.2471,0.995953,indistinguível
+Holt-Winters,Total,receita,0.255805,0.802104,3.88747,1,indistinguível
+SARIMAX,Total,receita,-0.656332,0.523059,-5.33092,1,indistinguível
+Poisson/NB2,Total,receita,1.0871,0.296737,5.96805,1,indistinguível
+Random Forest,Total,receita,-0.227176,0.82382,-4.40761,1,indistinguível

@@ -1,0 +1,7 @@
+alvo,abordagem,MAE,RMSE,MAPE_%,sMAPE_%,WAPE_%,R2,ME,ME_relativo_%,MASE
+demanda,Total direto,4.12941,4.62409,24.1522,22.3561,20.6471,0.216361,-1.20934,-6.0467,0.846172
+demanda,Soma M1 + M2,3.59044,4.88188,22.0341,19.0076,17.9522,0.126547,1.62033,8.10166,0.73573
+demanda,diferença média futura (direto − soma),,,,,,,0.773327,,
+receita,Total direto,117.088,135.085,23.575,21.7583,19.4667,0.279411,-8.22892,-1.36812,0.762905
+receita,Soma M1 + M2,107.333,124.048,20.6377,19.1108,17.8449,0.392356,-8.27892,-1.37643,0.699345
+receita,diferença média futura (direto − soma),,,,,,,-53.0667,,

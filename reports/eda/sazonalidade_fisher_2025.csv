@@ -1,0 +1,43 @@
+série,alvo,recorte,início,fim,dias,escala,pico da 1ª etapa (dias),período fundamental,g,g_α (5%),p-valor,periodicidades encontradas,período 7 significativo
+Máquina 1,demanda,desde 01/02/2025 (opção do teste.ipynb),2025-02-01,2025-03-23,51,original,7.29,7,0.380841,0.228046,0.000251878,7,True
+Máquina 1,demanda,desde 30/01/2025 (quebra de 2025),2025-01-30,2025-03-23,53,original,7.57,7,0.241281,0.221227,0.0260988,7,True
+Máquina 1,demanda,desde 01/01/2025 (ano-calendário),2025-01-01,2025-03-23,82,original,7.45,7,0.156346,0.157383,0.0524332,nenhuma,False
+Máquina 1,demanda,desde 01/03/2025 (padrão do teste.ipynb),2025-03-01,2025-03-23,23,original,7.67,7,0.343705,0.416879,0.162583,nenhuma,False
+Máquina 1,receita,desde 01/02/2025 (opção do teste.ipynb),2025-02-01,2025-03-23,51,original,7.29,7,0.362247,0.228046,0.000512392,7,True
+Máquina 1,receita,desde 30/01/2025 (quebra de 2025),2025-01-30,2025-03-23,53,original,7.57,7,0.229536,0.221227,0.0382817,7,True
+Máquina 1,receita,desde 01/01/2025 (ano-calendário),2025-01-01,2025-03-23,82,original,7.45,7,0.142453,0.157383,0.0981727,nenhuma,False
+Máquina 1,receita,desde 01/03/2025 (padrão do teste.ipynb),2025-03-01,2025-03-23,23,original,7.67,7,0.312671,0.416879,0.255849,nenhuma,False
+Total,demanda,desde 01/02/2025 (opção do teste.ipynb),2025-02-01,2025-03-23,51,original,2.32,7,0.311744,0.228046,0.00319112,7,True
+Total,demanda,desde 30/01/2025 (quebra de 2025),2025-01-30,2025-03-23,53,original,2.3,7,0.267744,0.221227,0.0107518,7,True
+Total,demanda,desde 01/01/2025 (ano-calendário),2025-01-01,2025-03-23,82,log(1 + y),5.86,6,0.0889187,0.157383,0.73419,nenhuma,False
+Total,demanda,desde 01/03/2025 (padrão do teste.ipynb),2025-03-01,2025-03-23,23,original,2.3,7,0.355352,0.416879,0.136113,nenhuma,False
+Total,receita,desde 01/02/2025 (opção do teste.ipynb),2025-02-01,2025-03-23,51,original,2.32,7,0.318595,0.228046,0.00250996,7,True
+Total,receita,desde 30/01/2025 (quebra de 2025),2025-01-30,2025-03-23,53,original,2.3,7,0.274689,0.221227,0.00847303,7,True
+Total,receita,desde 01/01/2025 (ano-calendário),2025-01-01,2025-03-23,82,original,2.34,7,0.12093,0.157383,0.246705,nenhuma,False
+Total,receita,desde 01/03/2025 (padrão do teste.ipynb),2025-03-01,2025-03-23,23,original,2.3,7,0.369305,0.416879,0.109462,nenhuma,False
+Máquina 2,demanda,desde 01/02/2025 (opção do teste.ipynb),2025-02-08,2025-03-23,44,original,2.44,7,0.157713,0.260609,0.574591,nenhuma,False
+Máquina 2,demanda,desde 30/01/2025 (quebra de 2025),2025-02-08,2025-03-23,44,original,2.44,7,0.157713,0.260609,0.574591,nenhuma,False
+Máquina 2,demanda,desde 01/01/2025 (ano-calendário),2025-02-08,2025-03-23,44,original,2.44,7,0.157713,0.260609,0.574591,nenhuma,False
+Máquina 2,demanda,desde 01/03/2025 (padrão do teste.ipynb),2025-03-01,2025-03-23,23,original,3.29,10,0.471869,0.416879,0.0185698,10,False
+Máquina 2,receita,desde 01/02/2025 (opção do teste.ipynb),2025-02-08,2025-03-23,44,original,2.44,7,0.153176,0.260609,0.621575,nenhuma,False
+Máquina 2,receita,desde 30/01/2025 (quebra de 2025),2025-02-08,2025-03-23,44,original,2.44,7,0.153176,0.260609,0.621575,nenhuma,False
+Máquina 2,receita,desde 01/01/2025 (ano-calendário),2025-02-08,2025-03-23,44,original,2.44,7,0.153176,0.260609,0.621575,nenhuma,False
+Máquina 2,receita,desde 01/03/2025 (padrão do teste.ipynb),2025-03-01,2025-03-23,23,original,3.29,10,0.444219,0.416879,0.0309336,10,False
+Máquina 1,demanda,desde 01/02/2025 (opção do teste.ipynb),2025-02-01,2025-03-09,37,original,7.4,7,0.307741,0.292618,0.0346475,7,True
+Máquina 1,demanda,desde 30/01/2025 (quebra de 2025),2025-01-30,2025-03-09,39,original,2.29,7,0.241306,0.281035,0.130606,nenhuma,False
+Máquina 1,demanda,desde 01/01/2025 (ano-calendário),2025-01-01,2025-03-09,68,original,6.8,7,0.15092,0.183507,0.170402,nenhuma,False
+Máquina 1,receita,desde 01/02/2025 (opção do teste.ipynb),2025-02-01,2025-03-09,37,original,2.31,7,0.293212,0.292618,0.0492922,7,True
+Máquina 1,receita,desde 30/01/2025 (quebra de 2025),2025-01-30,2025-03-09,39,original,2.29,7,0.241053,0.281035,0.131376,nenhuma,False
+Máquina 1,receita,desde 01/01/2025 (ano-calendário),2025-01-01,2025-03-09,68,original,6.8,7,0.146131,0.183507,0.202153,nenhuma,False
+Total,demanda,desde 01/02/2025 (opção do teste.ipynb),2025-02-01,2025-03-09,37,original,2.31,7,0.378667,0.292618,0.00551804,7,True
+Total,demanda,desde 30/01/2025 (quebra de 2025),2025-01-30,2025-03-09,39,original,2.29,7,0.332885,0.281035,0.0130122,"7, 17",True
+Total,demanda,desde 01/01/2025 (ano-calendário),2025-01-01,2025-03-09,68,original,2.27,7,0.117625,0.183507,0.507664,nenhuma,False
+Total,receita,desde 01/02/2025 (opção do teste.ipynb),2025-02-01,2025-03-09,37,original,2.31,7,0.379229,0.292618,0.00543377,7,True
+Total,receita,desde 30/01/2025 (quebra de 2025),2025-01-30,2025-03-09,39,original,2.29,7,0.326254,0.281035,0.0155474,"7, 17",True
+Total,receita,desde 01/01/2025 (ano-calendário),2025-01-01,2025-03-09,68,original,2.27,7,0.106403,0.183507,0.676004,nenhuma,False
+Máquina 2,demanda,desde 01/02/2025 (opção do teste.ipynb),2025-02-08,2025-03-09,30,original,2.14,2,0.193823,0.351716,0.700084,nenhuma,False
+Máquina 2,demanda,desde 30/01/2025 (quebra de 2025),2025-02-08,2025-03-09,30,original,2.14,2,0.193823,0.351716,0.700084,nenhuma,False
+Máquina 2,demanda,desde 01/01/2025 (ano-calendário),2025-02-08,2025-03-09,30,original,2.14,2,0.193823,0.351716,0.700084,nenhuma,False
+Máquina 2,receita,desde 01/02/2025 (opção do teste.ipynb),2025-02-08,2025-03-09,30,original,2.14,2,0.208677,0.351716,0.587792,nenhuma,False
+Máquina 2,receita,desde 30/01/2025 (quebra de 2025),2025-02-08,2025-03-09,30,original,2.14,2,0.208677,0.351716,0.587792,nenhuma,False
+Máquina 2,receita,desde 01/01/2025 (ano-calendário),2025-02-08,2025-03-09,30,original,2.14,2,0.208677,0.351716,0.587792,nenhuma,False

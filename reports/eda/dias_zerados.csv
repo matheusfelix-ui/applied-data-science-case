@@ -1,0 +1,11 @@
+série,data,dia da semana,data especial,dias zerados consecutivos,"λ local (mesmo dia da semana, ±4 sem.)",P(Y = 0 | λ),leitura
+Máquina 1,2024-05-01,qua,Dia do Trabalho,1,7.25,0.000710174,implausível como acaso → provável fechamento/falha operacional
+Máquina 1,2024-05-04,sáb,—,2,7.75,0.000430743,implausível como acaso → provável fechamento/falha operacional
+Máquina 1,2024-05-05,dom,—,2,8.75,0.000158461,implausível como acaso → provável fechamento/falha operacional
+Máquina 1,2024-11-27,qua,—,1,8.375,0.00023056,implausível como acaso → provável fechamento/falha operacional
+Máquina 1,2025-01-01,qua,Ano Novo,1,7.25,0.000710174,implausível como acaso → provável fechamento/falha operacional
+Máquina 1,2025-01-19,dom,—,1,6.375,0.00170362,implausível como acaso → provável fechamento/falha operacional
+Máquina 1,2025-01-23,qui,—,1,10.375,3.12029e-05,implausível como acaso → provável fechamento/falha operacional
+Máquina 2,2025-03-04,ter,—,1,3.8,0.0223708,compatível com demanda baixa
+Máquina 2,2025-03-06,qui,—,1,4,0.0183156,compatível com demanda baixa
+Máquina 2,2025-03-13,qui,—,1,4,0.0183156,compatível com demanda baixa

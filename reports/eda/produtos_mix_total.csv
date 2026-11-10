@@ -1,0 +1,34 @@
+produto,transacoes,receita,preco_medio,precos_distintos,% transações,% receita
+Latte,806,28658.3,35.5562,7,20.6773,23.4287
+Americano with milk,868,26369.1,30.3792,7,22.2678,21.5572
+Cappuccino,517,18514.1,35.8107,7,13.2632,15.1356
+Americano,593,15437.3,26.0325,7,15.2129,12.6202
+Hot chocolate,282,10172.5,36.0726,6,7.23448,8.31616
+Cocoa,243,8678.16,35.7126,6,6.23397,7.09455
+Cortado,292,7534.86,25.8043,5,7.49102,6.15988
+Espresso,152,3187.28,20.9689,7,3.89944,2.60566
+Irish whiskey,21,525,25,1,0.538738,0.429197
+Coffee with irish whiskey,16,464,29,1,0.410467,0.379328
+Irish whiskey with milk,15,405,27,1,0.384813,0.331094
+Double irish whiskey,12,336,28,1,0.30785,0.274686
+Chocolate with milk,12,324,27,1,0.30785,0.264876
+Tea,16,240,15,1,0.410467,0.196204
+Caramel with irish whiskey,8,224,28,1,0.205233,0.183124
+Super chocolate,6,168,28,1,0.153925,0.137343
+Mochaccino,5,150,30,1,0.128271,0.122628
+Chocolate with coffee,5,150,30,1,0.128271,0.122628
+Irish with chocolate,5,135,27,1,0.128271,0.110365
+Caramel with chocolate,4,112,28,1,0.102617,0.0915619
+Vanilla with irish whiskey,3,84,28,1,0.0769625,0.0686714
+Caramel with milk,3,75,25,1,0.0769625,0.0613138
+Double espresso with milk,2,64,32,1,0.0513084,0.0523211
+Caramel coffee,2,56,28,1,0.0513084,0.045781
+Double vanilla,2,47,23.5,2,0.0513084,0.0384233
+Hot milkshake,1,30,30,1,0.0256542,0.0245255
+Coffee with chocolate,1,28,28,1,0.0256542,0.0228905
+Double ristretto,1,27,27,1,0.0256542,0.022073
+Vanilla coffee,1,27,27,1,0.0256542,0.022073
+Double espresso,1,27,27,1,0.0256542,0.022073
+Double chocolate,1,25,25,1,0.0256542,0.0204379
+Chocolate,1,25,25,1,0.0256542,0.0204379
+Caramel,1,22,22,1,0.0256542,0.0179854

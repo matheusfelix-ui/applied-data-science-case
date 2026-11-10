@@ -1,0 +1,126 @@
+# Configuração central do projeto Coffee Sales.
+# Todos os parâmetros metodológicos ficam aqui; o código em src/ não contém números mágicos.
+
+projeto:
+  nome: "Coffee Sales — previsão de demanda e faturamento"
+  semente: 2024
+
+caminhos:
+  dados_brutos: data/raw
+  dados_processados: data/processed
+  modelos: models
+  relatorios: reports
+  logs: logs
+
+dados:
+  kaggle_dataset: "ihelon/coffee-sales/versions/21"
+  arquivos:                  # arquivo bruto -> identificador da máquina
+    index_1.csv: 1
+    index_2.csv: 2
+  colunas_obrigatorias: [date, datetime, cash_type, money, coffee_name]
+  colunas_texto: [cash_type, coffee_name, card]
+  meios_pagamento_validos: [card, cash]
+
+series:
+  nomes: ["Máquina 1", "Máquina 2", "Total"]
+  pastas: {"Máquina 1": machine_1, "Máquina 2": machine_2, "Total": total}
+  alvos: [demanda, receita]
+  unidades: {demanda: "transações/dia", receita: "unidades monetárias/dia"}
+
+divisao:
+  horizonte: 14              # dias previstos a partir de cada origem
+  dias_teste: 14             # teste = últimos 14 dias (10/03 a 23/03/2025)
+  n_dobras_validacao: 3      # dobras internas de 14 dias dentro do treino (26/01, 09/02, 23/02)
+  min_dias_treino_validacao: 14
+  n_origens_backtest: 10     # origens adicionais (blocos de 14 dias sem sobreposição) + a principal = 11
+  series_backtest: ["Máquina 1", "Total"]   # a Máquina 2 não tem histórico antes de 08/02/2025
+  dias_aquecimento: {"Máquina 1": 28, "Máquina 2": 14, "Total": 28}
+  dias_ajuste_recente: 28
+  bloco_ajuste_fora_dobra: 28
+  horizonte_futuro: 14       # previsão final após o último dia observado
+
+quebras:
+  min_segmento: 28           # Binseg: segmentos de pelo menos 28 dias
+  max_quebras: 4
+  min_dias_deteccao: 120     # abaixo disso uma quebra não se distingue do ruído
+  min_segmento_janela: 14
+  horas_nucleo_original: [10, 18]   # detecção da janela (modelagens_testes): fora de 10h–19h = hora < 10 ou ≥ 19
+  horas_nucleo_canibalizacao: [10, 19]   # núcleo da seção 20.1 do notebook principal: horas 10 a 19 inclusive
+  semente_bootstrap: 42      # semente das seções 19–20 do notebook principal (reprodutibilidade)
+  sup_f_trimming: 0.15       # trimming do teste sup-F de Andrews (15% em cada ponta)
+  semanas_its: [6, 8, 10]    # janelas do quase-experimento (canibalização)
+  semanas_its_principal: 8
+  semanas_its_m2: 4          # janela da análise de entrada da Máquina 2
+  n_bootstrap: 2000
+  tamanho_bloco_bootstrap: 7
+  burn_in_clientes_dias: 28  # censura à esquerda: cartões dos primeiros 28 dias não contam como "novos"
+
+calendario:                  # o país não é informado: lista genérica e conhecida de antemão
+  feriados: {"01-01": "Ano Novo", "05-01": "Dia do Trabalho", "12-25": "Natal"}
+  datas_comerciais: {"02-14": "Dia dos Namorados", "03-08": "Dia da Mulher", "12-24": "Véspera de Natal", "12-31": "Véspera de Ano Novo"}
+
+features:
+  lags: [1, 2, 3, 7, 14, 21, 28]
+  janelas_moveis: [7, 14, 30]
+  fourier_ordem: 2           # harmônicos semanais
+  manha_ate_hora: 9          # "manhã" = vendas até 09h59
+  noite_desde_hora: 20       # "noite" = vendas a partir de 20h
+
+modelos:
+  baselines: ["Naive sazonal", "Média 4 semanas"]
+  candidatos: ["Holt-Winters", "SARIMAX", "Poisson/NB2", "Random Forest"]
+  janelas_estimacao: ["todo o treino", "desde a última quebra", "últimas 16 semanas", "últimas 8 semanas"]
+  transformacoes: ["nenhuma", "raiz (Anscombe)"]
+  sarima:
+    max_p: 3
+    max_q: 3
+    max_P: 1
+    max_Q: 1
+  contagem:
+    simulacoes_validacao: 300
+    simulacoes_final: 4000
+    dias_tickets: 28
+  random_forest:
+    n_estimators: 400
+    grade:
+      max_depth: [null, 8]
+      min_samples_leaf: [1, 5]
+      max_features: [0.5, 1.0]
+    meias_vidas: [null, 120, 60, 30]
+    regra_selecao: "1ep"     # "1ep" (regra de 1 erro-padrão) ou "minimo"; decidida no backtest antes do teste (ver docs/methodology.md)
+  n_jobs: 4
+  conformal_min_residuos: 10
+
+selecao:                     # critério final por série × alvo (seção 9 do enunciado)
+  pesos:
+    posto_teste: 0.40        # desempenho efetivo no teste (peso importante)
+    posto_backtest: 0.35     # posto médio do MASE nas 11 origens
+    estabilidade: 0.25       # % de origens em que o modelo bate a Média 4 semanas
+  limite_vies_relativo: 0.15 # |ME| / média do teste acima disso desclassifica (coerência de negócio)
+  metrica_principal: MAE
+
+visualizacao:
+  dpi: 300
+  formatos: [png, pdf]
+  cores:
+    "Máquina 1": "#2a78d6"
+    "Máquina 2": "#eb6834"
+    "Total": "#1baf7a"
+    observado: "#2b2b2b"
+    contexto: "#a3a29c"
+    fundo_teste: "#f3f1ec"
+    quebra: "#52514e"
+    texto_secundario: "#52514e"
+    grade: "#ebeae5"
+    eixo: "#c9c8c2"
+  cores_modelos:
+    "Naive sazonal": "#a3a29c"
+    "Média 4 semanas": "#52514e"
+    "Holt-Winters": "#2a78d6"
+    "SARIMAX": "#eb6834"
+    "Poisson/NB2": "#1baf7a"
+    "Random Forest": "#eda100"
+
+logging:
+  nivel: INFO
+  arquivo: logs/pipeline.log

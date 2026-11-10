@@ -1,0 +1,10 @@
+parte,evidência,observado,leitura
+(a) horário 2024,Núcleo (10–19h) após a extensão,"5.9 → 5.4/dia (IRR 0.92, p = 0.51)",contra canibalização forte (núcleo não cai de forma detectável)
+(a) horário 2024,Demanda total após a extensão,IRR 1.45 (p = 0.001),a extensão somou demanda
+(a) horário 2024,Taxa de incrementalidade (±6/8/10 sem.),"1.01, 0.84, 0.57; IC95% ±8 sem. [0.34; 1.23]",predominantemente incremental; canibalização parcial não excluída (IC largo)
+(a) horário 2024,Cartões recorrentes,0% → 18% das compras nas novas horas; frequência 0.38 → 0.50/sem. (Wilcoxon p = 0.50),"há troca de horário individual, sem queda de frequência (n pequeno)"
+(b) entrada da M2,Nível da M1 após a entrada da M2,"14.2 → 14.4/dia (IRR 1.06, p = 0.37)",contra canibalização líquida: sem queda detectável da M1 (pré-período de 9 dias: baixo poder)
+(b) entrada da M2,"M1 no fechamento (20–23h), faixa forte da M2",1.05 → 0.45/dia; composição horária da M1 antes × depois: χ² p = 0.000,a favor de deslocamento localizado: a M1 perde no fechamento quase o que a M2 vende nessa faixa; confundido com a troca de público da M1 (seção 6.2)
+(b) entrada da M2,Fim de semana da M1 (a M2 vende 41% no fim de semana),interação pós × fim de semana: IRR 0.76 (p = 0.07),indício fraco (não significativo a 5%) de queda da M1 nos dias fortes da M2
+(b) entrada da M2,Correlação diária M1 × M2,ρ = -0.11 (p circular = 0.82),substituição diária não detectada (seria ρ negativo)
+(b) entrada da M2,Participação da M2 ao longo das semanas,ρ = -0.77 (p = 0.07),sem ganho progressivo de participação às custas da M1

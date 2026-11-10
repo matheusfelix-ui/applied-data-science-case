@@ -1,0 +1,169 @@
+data,modelo,alvo,observado,previsto,escolhido,li_80,ls_80,li_95,ls_95
+2025-03-10,Naive sazonal,demanda,4,6,False,0,12.7909,0,16.3858
+2025-03-11,Naive sazonal,demanda,5,0,False,0,6.7909,0,10.3858
+2025-03-12,Naive sazonal,demanda,8,8,False,1.2091,14.7909,0,18.3858
+2025-03-13,Naive sazonal,demanda,0,0,False,0,6.7909,0,10.3858
+2025-03-14,Naive sazonal,demanda,4,5,False,0,11.7909,0,15.3858
+2025-03-15,Naive sazonal,demanda,11,4,False,0,10.7909,0,14.3858
+2025-03-16,Naive sazonal,demanda,4,8,False,1.2091,14.7909,0,18.3858
+2025-03-17,Naive sazonal,demanda,5,6,False,0,15.6038,0,20.6877
+2025-03-18,Naive sazonal,demanda,6,0,False,0,9.60378,0,14.6877
+2025-03-19,Naive sazonal,demanda,5,8,False,0,17.6038,0,22.6877
+2025-03-20,Naive sazonal,demanda,3,0,False,0,9.60378,0,14.6877
+2025-03-21,Naive sazonal,demanda,4,5,False,0,14.6038,0,19.6877
+2025-03-22,Naive sazonal,demanda,10,4,False,0,13.6038,0,18.6877
+2025-03-23,Naive sazonal,demanda,8,8,False,0,17.6038,0,22.6877
+2025-03-10,Média 4 semanas,demanda,4,5.25,False,0,11.6346,0,15.0145
+2025-03-11,Média 4 semanas,demanda,5,2,False,0,8.38464,0,11.7645
+2025-03-12,Média 4 semanas,demanda,8,7.5,False,1.11536,13.8846,0,17.2645
+2025-03-13,Média 4 semanas,demanda,0,4.25,False,0,10.6346,0,14.0145
+2025-03-14,Média 4 semanas,demanda,4,8.5,False,2.11536,14.8846,0,18.2645
+2025-03-15,Média 4 semanas,demanda,11,5,False,0,11.3846,0,14.7645
+2025-03-16,Média 4 semanas,demanda,4,7.75,False,1.36536,14.1346,0,17.5145
+2025-03-17,Média 4 semanas,demanda,5,5.25,False,0,11.6346,0,15.0145
+2025-03-18,Média 4 semanas,demanda,6,2,False,0,8.38464,0,11.7645
+2025-03-19,Média 4 semanas,demanda,5,7.5,False,1.11536,13.8846,0,17.2645
+2025-03-20,Média 4 semanas,demanda,3,4.25,False,0,10.6346,0,14.0145
+2025-03-21,Média 4 semanas,demanda,4,8.5,False,2.11536,14.8846,0,18.2645
+2025-03-22,Média 4 semanas,demanda,10,5,False,0,11.3846,0,14.7645
+2025-03-23,Média 4 semanas,demanda,8,7.75,False,1.36536,14.1346,0,17.5145
+2025-03-10,Holt-Winters,demanda,4,5.24969,False,0.885069,9.6143,0,11.9248
+2025-03-11,Holt-Winters,demanda,5,2.00007,False,0,6.36469,0,8.67518
+2025-03-12,Holt-Winters,demanda,8,7.49948,False,3.13486,11.8641,0.824374,14.1746
+2025-03-13,Holt-Winters,demanda,0,4.24975,False,0,8.61436,0,10.9249
+2025-03-14,Holt-Winters,demanda,4,8.50043,False,4.13581,12.865,1.82533,15.1755
+2025-03-15,Holt-Winters,demanda,11,5.59998,False,1.23536,9.9646,0,12.2751
+2025-03-16,Holt-Winters,demanda,4,9.40027,False,5.03565,13.7649,2.72516,16.0754
+2025-03-17,Holt-Winters,demanda,5,5.24969,False,0.885068,9.6143,0,11.9248
+2025-03-18,Holt-Winters,demanda,6,2.00007,False,0,6.36469,0,8.67518
+2025-03-19,Holt-Winters,demanda,5,7.49948,False,3.13486,11.8641,0.824374,14.1746
+2025-03-20,Holt-Winters,demanda,3,4.24975,False,0,8.61436,0,10.9249
+2025-03-21,Holt-Winters,demanda,4,8.50043,False,4.13581,12.865,1.82532,15.1755
+2025-03-22,Holt-Winters,demanda,10,5.59998,False,1.23536,9.9646,0,12.2751
+2025-03-23,Holt-Winters,demanda,8,9.40027,False,5.03565,13.7649,2.72516,16.0754
+2025-03-10,SARIMAX,demanda,4,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-11,SARIMAX,demanda,5,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-12,SARIMAX,demanda,8,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-13,SARIMAX,demanda,0,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-14,SARIMAX,demanda,4,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-15,SARIMAX,demanda,11,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-16,SARIMAX,demanda,4,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-17,SARIMAX,demanda,5,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-18,SARIMAX,demanda,6,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-19,SARIMAX,demanda,5,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-20,SARIMAX,demanda,3,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-21,SARIMAX,demanda,4,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-22,SARIMAX,demanda,10,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-23,SARIMAX,demanda,8,6.14286,False,0.81794,11.4678,0,14.2866
+2025-03-10,Poisson/NB2,demanda,4,6.196,False,2,12,0,16
+2025-03-11,Poisson/NB2,demanda,5,6.199,False,2,12,0,16
+2025-03-12,Poisson/NB2,demanda,8,6.13875,False,2,12,0,16
+2025-03-13,Poisson/NB2,demanda,0,6.23125,False,2,12,1,16
+2025-03-14,Poisson/NB2,demanda,4,6.14625,False,2,12,0,16
+2025-03-15,Poisson/NB2,demanda,11,6.1365,False,2,11.1,0,17
+2025-03-16,Poisson/NB2,demanda,4,6.2315,False,2,12,0,16
+2025-03-17,Poisson/NB2,demanda,5,6.154,False,2,12,0,16
+2025-03-18,Poisson/NB2,demanda,6,6.18475,False,2,12,0,16
+2025-03-19,Poisson/NB2,demanda,5,6.2175,False,2,12,0,17
+2025-03-20,Poisson/NB2,demanda,3,6.19025,False,2,12,0,16
+2025-03-21,Poisson/NB2,demanda,4,6.02975,False,2,12,0,16
+2025-03-22,Poisson/NB2,demanda,10,6.25525,False,2,12,0,17
+2025-03-23,Poisson/NB2,demanda,8,6.13775,False,2,12,0,16
+2025-03-10,Random Forest,demanda,4,5.29016,True,0,11.3884,0,16.1063
+2025-03-11,Random Forest,demanda,5,4.76942,True,0,10.8677,0,15.5856
+2025-03-12,Random Forest,demanda,8,5.34844,True,0,11.4467,0,16.1646
+2025-03-13,Random Forest,demanda,0,5.2043,True,0,11.3026,0,16.0205
+2025-03-14,Random Forest,demanda,4,6.66063,True,0.562371,12.7589,0,17.4768
+2025-03-15,Random Forest,demanda,11,6.68135,True,0.583092,12.7796,0,17.4975
+2025-03-16,Random Forest,demanda,4,6.8147,True,0.716447,12.913,0,17.6309
+2025-03-17,Random Forest,demanda,5,5.22719,True,0,11.3254,0,16.0434
+2025-03-18,Random Forest,demanda,6,5.34252,True,0,11.4408,0,16.1587
+2025-03-19,Random Forest,demanda,5,5.80795,True,0,11.9062,0,16.6241
+2025-03-20,Random Forest,demanda,3,6.41501,True,0.31676,12.5133,0,17.2312
+2025-03-21,Random Forest,demanda,4,6.5976,True,0.499348,12.6959,0,17.4138
+2025-03-22,Random Forest,demanda,10,6.50742,True,0.409166,12.6057,0,17.3236
+2025-03-23,Random Forest,demanda,8,6.70937,True,0.611116,12.8076,0,17.5256
+2025-03-10,Naive sazonal,receita,109,155,False,0,330.938,0,424.075
+2025-03-11,Naive sazonal,receita,139,0,False,0,175.938,0,269.075
+2025-03-12,Naive sazonal,receita,215,207,False,31.0616,382.938,0,476.075
+2025-03-13,Naive sazonal,receita,0,0,False,0,175.938,0,269.075
+2025-03-14,Naive sazonal,receita,113,131,False,0,306.938,0,400.075
+2025-03-15,Naive sazonal,receita,280,103,False,0,278.938,0,372.075
+2025-03-16,Naive sazonal,receita,104,212,False,36.0616,387.938,0,481.075
+2025-03-17,Naive sazonal,receita,145,155,False,0,403.814,0,535.529
+2025-03-18,Naive sazonal,receita,162,0,False,0,248.814,0,380.529
+2025-03-19,Naive sazonal,receita,140,207,False,0,455.814,0,587.529
+2025-03-20,Naive sazonal,receita,88,0,False,0,248.814,0,380.529
+2025-03-21,Naive sazonal,receita,105,131,False,0,379.814,0,511.529
+2025-03-22,Naive sazonal,receita,248,103,False,0,351.814,0,483.529
+2025-03-23,Naive sazonal,receita,215,212,False,0,460.814,0,592.529
+2025-03-10,Média 4 semanas,receita,109,133.75,False,0,299.401,0,387.091
+2025-03-11,Média 4 semanas,receita,139,52.5,False,0,218.151,0,305.841
+2025-03-12,Média 4 semanas,receita,215,183.5,False,17.8492,349.151,0,436.841
+2025-03-13,Média 4 semanas,receita,0,115,False,0,280.651,0,368.341
+2025-03-14,Média 4 semanas,receita,113,220.5,False,54.8492,386.151,0,473.841
+2025-03-15,Média 4 semanas,receita,280,129,False,0,294.651,0,382.341
+2025-03-16,Média 4 semanas,receita,104,212.5,False,46.8492,378.151,0,465.841
+2025-03-17,Média 4 semanas,receita,145,133.75,False,0,299.401,0,387.091
+2025-03-18,Média 4 semanas,receita,162,52.5,False,0,218.151,0,305.841
+2025-03-19,Média 4 semanas,receita,140,183.5,False,17.8492,349.151,0,436.841
+2025-03-20,Média 4 semanas,receita,88,115,False,0,280.651,0,368.341
+2025-03-21,Média 4 semanas,receita,105,220.5,False,54.8492,386.151,0,473.841
+2025-03-22,Média 4 semanas,receita,248,129,False,0,294.651,0,382.341
+2025-03-23,Média 4 semanas,receita,215,212.5,False,46.8492,378.151,0,465.841
+2025-03-10,Holt-Winters,receita,109,133.789,False,20.5984,246.98,0,306.9
+2025-03-11,Holt-Winters,receita,139,52.5124,False,0,165.703,0,225.623
+2025-03-12,Holt-Winters,receita,215,183.366,False,70.1753,296.557,10.2556,356.477
+2025-03-13,Holt-Winters,receita,0,115.148,False,1.95692,228.339,0,288.259
+2025-03-14,Holt-Winters,receita,113,220.402,False,107.211,333.593,47.2909,393.512
+2025-03-15,Holt-Winters,receita,280,142.422,False,29.2314,255.613,0,315.533
+2025-03-16,Holt-Winters,receita,104,258.75,False,145.559,371.941,85.639,431.86
+2025-03-17,Holt-Winters,receita,145,133.789,False,20.5984,246.98,0,306.9
+2025-03-18,Holt-Winters,receita,162,52.5124,False,0,165.703,0,225.623
+2025-03-19,Holt-Winters,receita,140,183.366,False,70.1752,296.557,10.2555,356.477
+2025-03-20,Holt-Winters,receita,88,115.148,False,1.95692,228.339,0,288.259
+2025-03-21,Holt-Winters,receita,105,220.402,False,107.211,333.593,47.2909,393.512
+2025-03-22,Holt-Winters,receita,248,142.422,False,29.2314,255.613,0,315.533
+2025-03-23,Holt-Winters,receita,215,258.75,False,145.559,371.941,85.639,431.86
+2025-03-10,SARIMAX,receita,109,160.923,False,20.8775,300.969,0,375.105
+2025-03-11,SARIMAX,receita,139,160.923,False,20.8775,300.969,0,375.105
+2025-03-12,SARIMAX,receita,215,160.923,False,20.8775,300.969,0,375.105
+2025-03-13,SARIMAX,receita,0,160.923,False,20.8775,300.969,0,375.105
+2025-03-14,SARIMAX,receita,113,160.923,False,20.8775,300.969,0,375.105
+2025-03-15,SARIMAX,receita,280,160.923,False,20.8775,300.969,0,375.105
+2025-03-16,SARIMAX,receita,104,160.923,False,20.8775,300.969,0,375.105
+2025-03-17,SARIMAX,receita,145,160.923,False,20.8775,300.969,0,375.105
+2025-03-18,SARIMAX,receita,162,160.923,False,20.8775,300.969,0,375.105
+2025-03-19,SARIMAX,receita,140,160.923,False,20.8775,300.969,0,375.105
+2025-03-20,SARIMAX,receita,88,160.923,False,20.8775,300.969,0,375.105
+2025-03-21,SARIMAX,receita,105,160.923,False,20.8775,300.969,0,375.105
+2025-03-22,SARIMAX,receita,248,160.923,False,20.8775,300.969,0,375.105
+2025-03-23,SARIMAX,receita,215,160.923,False,20.8775,300.969,0,375.105
+2025-03-10,Poisson/NB2,receita,109,161.217,False,35,312,0,415
+2025-03-11,Poisson/NB2,receita,139,161.006,False,40,305,0,416.025
+2025-03-12,Poisson/NB2,receita,215,159.671,False,44,309,0,427.025
+2025-03-13,Poisson/NB2,receita,0,162.125,False,45,308.1,15,429.075
+2025-03-14,Poisson/NB2,receita,113,159.73,False,40,307,0,421.05
+2025-03-15,Poisson/NB2,receita,280,159.329,False,40,300,0,430.025
+2025-03-16,Poisson/NB2,receita,104,162.079,False,47,309,0,419.025
+2025-03-17,Poisson/NB2,receita,145,160.141,False,40,309,0,427.025
+2025-03-18,Poisson/NB2,receita,162,161.138,False,40,311,0,422.025
+2025-03-19,Poisson/NB2,receita,140,161.747,False,40,305.1,0,431
+2025-03-20,Poisson/NB2,receita,88,161.073,False,40,304,0,422
+2025-03-21,Poisson/NB2,receita,105,156.808,False,40,302,0,405.025
+2025-03-22,Poisson/NB2,receita,248,162.683,False,40,309,0,433
+2025-03-23,Poisson/NB2,receita,215,159.736,False,40,309,0,424
+2025-03-10,Random Forest,receita,109,136.297,True,0,293.953,0,374.776
+2025-03-11,Random Forest,receita,139,136.871,True,0,294.527,0,375.35
+2025-03-12,Random Forest,receita,215,132.805,True,0,290.462,0,371.285
+2025-03-13,Random Forest,receita,0,136.239,True,0,293.895,0,374.718
+2025-03-14,Random Forest,receita,113,167.181,True,9.5247,324.837,0,405.66
+2025-03-15,Random Forest,receita,280,170.989,True,13.333,328.645,0,409.469
+2025-03-16,Random Forest,receita,104,181.198,True,23.5424,338.855,0,419.678
+2025-03-17,Random Forest,receita,145,142.99,True,0,300.646,0,381.469
+2025-03-18,Random Forest,receita,162,141.002,True,0,298.658,0,379.481
+2025-03-19,Random Forest,receita,140,146.406,True,0,304.062,0,384.886
+2025-03-20,Random Forest,receita,88,164.574,True,6.91778,322.23,0,403.053
+2025-03-21,Random Forest,receita,105,171.049,True,13.393,328.705,0,409.529
+2025-03-22,Random Forest,receita,248,176.503,True,18.8466,334.159,0,414.982
+2025-03-23,Random Forest,receita,215,177.795,True,20.1386,335.451,0,416.274

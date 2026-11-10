@@ -1,0 +1,11 @@
+modelo,AIC,LR vs só dia da semana,gl,p (LR),IRR das dummies,α (NB2),ΔAIC vs só dia da semana,série
+só dia da semana,2249.97,0,0,,—,0.205273,0,Máquina 1
++ dummy_horario_reduzido,2219.91,32.0597,1,1.49503e-08,dummy_horario_reduzido = 0.66,0.17788,-30.0597,Máquina 1
++ dummy_novos_clientes,2215.37,36.5986,1,1.45135e-09,dummy_novos_clientes = 1.67,0.170939,-34.5986,Máquina 1
++ as duas dummies obrigatórias,2193.56,60.4026,2,7.6515e-14,"dummy_horario_reduzido = 0.71, dummy_novos_clientes = 1.55",0.152436,-56.4026,Máquina 1
++ dummies + regimes intermediários,2151.36,106.604,4,3.85528e-22,"dummy_horario_reduzido = 0.84, dummy_novos_clientes = 1.98, regime_240724 = 1.47, regime_161124 = 0.64",0.117129,-98.604,Máquina 1
+só dia da semana,2326.46,0,0,,—,0.262223,0,Total
++ dummy_horario_reduzido,2292.43,36.0323,1,1.9407e-09,dummy_horario_reduzido = 0.62,0.227926,-34.0323,Total
++ dummy_novos_clientes,2236.69,91.763,1,9.77059e-22,dummy_novos_clientes = 2.33,0.171256,-89.763,Total
++ as duas dummies obrigatórias,2213.82,116.639,2,4.69955e-26,"dummy_horario_reduzido = 0.70, dummy_novos_clientes = 2.17",0.15219,-112.639,Total
++ dummies + regimes intermediários,2176.36,158.093,4,3.74954e-33,"dummy_horario_reduzido = 0.84, dummy_novos_clientes = 2.65, regime_240724 = 1.47, regime_161124 = 0.67",0.121051,-150.093,Total

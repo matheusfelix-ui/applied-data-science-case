@@ -1,0 +1,4 @@
+série,dias,dias com zero vendas,% de dias zerados,maior sequência de zeros,receita zero ⇔ demanda zero
+Máquina 1,388,7,1.80412,2,True
+Máquina 2,44,3,6.81818,1,True
+Total,388,7,1.80412,2,True

@@ -1,0 +1,13 @@
+arquivo,coluna,registros,nulos,% nulos,tipo
+index_1.csv,date,3636,0,0,sem ausência
+index_1.csv,datetime,3636,0,0,sem ausência
+index_1.csv,cash_type,3636,0,0,sem ausência
+index_1.csv,card,3636,89,2.44774,valor ausente
+index_1.csv,money,3636,0,0,sem ausência
+index_1.csv,coffee_name,3636,0,0,sem ausência
+index_2.csv,date,262,0,0,sem ausência
+index_2.csv,datetime,262,0,0,sem ausência
+index_2.csv,cash_type,262,0,0,sem ausência
+index_2.csv,card,262,262,100,coluna inexistente no arquivo
+index_2.csv,money,262,0,0,sem ausência
+index_2.csv,coffee_name,262,0,0,sem ausência

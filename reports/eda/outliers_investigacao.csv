@@ -1,0 +1,17 @@
+série,alvo,data,valor,nível local (tendência STL),desvio vs nível (%),nº de critérios,transações no dia,registros repetidos,causa provável
+Máquina 1,demanda,2024-10-11,26,12.5633,106.952,4,26,0,"evento legítimo (pico/vale isolado, transações consistentes)"
+Máquina 1,demanda,2025-02-03,25,12.0279,107.85,3,25,0,até 14 dias de uma quebra de nível (30/01/2025)
+Máquina 1,receita,2024-10-11,836.66,402.441,107.896,4,26,0,"evento legítimo (pico/vale isolado, transações consistentes)"
+Máquina 2,demanda,2025-02-26,17,5.67011,199.818,3,17,1,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,demanda,2024-10-11,26,12.6249,105.942,3,26,0,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,demanda,2024-12-26,2,8.7114,-77.0416,2,2,0,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,demanda,2025-02-03,25,12.3474,102.472,3,25,0,até 14 dias de uma quebra de nível (04/02/2025)
+Total,demanda,2025-02-09,25,16.3018,53.3571,3,25,0,até 14 dias de uma quebra de nível (04/02/2025)
+Total,demanda,2025-02-20,30,19.2747,55.6447,4,30,0,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,demanda,2025-02-21,34,18.7568,81.2677,4,34,0,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,demanda,2025-02-26,35,18.94,84.7937,5,35,1,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,receita,2025-02-03,796,380.41,109.248,3,25,0,até 14 dias de uma quebra de nível (04/02/2025)
+Total,receita,2025-02-20,881.44,573.984,53.5653,4,30,0,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,receita,2025-02-21,979.08,562.828,73.9572,4,34,0,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,receita,2025-02-26,975.18,575.338,69.4969,4,35,1,"evento legítimo (pico/vale isolado, transações consistentes)"
+Total,receita,2025-03-03,892.72,597.607,49.3825,3,28,0,"evento legítimo (pico/vale isolado, transações consistentes)"

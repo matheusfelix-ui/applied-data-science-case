@@ -1,0 +1,28 @@
+{
+  "série": "Máquina 2",
+  "alvo": "demanda",
+  "modelo": "Random Forest",
+  "especificação": "max_depth=8, min_samples_leaf=5, max_features=0.5, sem ponderação, sem atributos comportamentais",
+  "treino": [
+    "2025-02-08",
+    "2025-03-23"
+  ],
+  "horizonte": 14,
+  "previsão": [
+    "2025-03-24",
+    "2025-04-06"
+  ],
+  "hash_config": "6da152eedcb9",
+  "hash_dados": {
+    "index_1.csv": {
+      "sha256": "2a600445a1836da436a3e890e1e1cce0ecf279d369d3a9e280db3ea0d06b594e",
+      "bytes": 279369
+    },
+    "index_2.csv": {
+      "sha256": "793d2eaff83354112c274c6c8ab53af0198196b782892a213773b62283813149",
+      "bytes": 14962
+    }
+  },
+  "arquivo_modelo": "machine_2_demanda.joblib",
+  "gerado_em": "2026-11-10 19:07:33"
+}

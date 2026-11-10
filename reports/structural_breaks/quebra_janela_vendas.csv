@@ -1,0 +1,9 @@
+,valor
+data detectada (só treino),2024-05-18 00:00:00
+data refinada (série inteira),2024-05-14 00:00:00
+% fora 10–19h antes,12.45146705146705
+% fora 10–19h depois,39.927708177138406
+sup-Wald,131.04409650878804
+p (Andrews),0.0
+data sup-Wald,2024-05-17 00:00:00
+Mann-Whitney p,6.910881036488485e-18

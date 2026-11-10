@@ -1,0 +1,13 @@
+modelo,alvo,MAE Total direto,MAE soma M1 + M2,ME Total direto,ME soma M1 + M2,soma melhor?,variação % (soma vs direto)
+Naive sazonal,demanda,5.14286,5.14286,-1,-1,False,0
+Média 4 semanas,demanda,4.21429,4.21429,0.571429,0.571429,False,0
+Holt-Winters,demanda,4.20503,4.57011,-1.15547,1.73628,False,8.68201
+SARIMAX,demanda,4.12941,3.72891,-1.20934,0.898419,True,-9.6987
+Poisson/NB2,demanda,4.5613,4.03013,0.906339,0.823696,True,-11.6453
+Random Forest,demanda,3.87548,4.09143,0.219393,-0.391777,False,5.57211
+Naive sazonal,receita,153.666,153.666,-28.6743,-28.6743,False,0
+Média 4 semanas,receita,122.419,122.419,9.47286,9.47286,False,0
+Holt-Winters,receita,126.306,119.892,-41.4115,-6.0731,True,-5.07835
+SARIMAX,receita,117.088,115.766,-8.22892,22.1619,True,-1.12843
+Poisson/NB2,receita,128.387,117.298,19.4217,15.0642,True,-8.63676
+Random Forest,receita,118.011,115.533,-27.747,-12.7974,True,-2.09989

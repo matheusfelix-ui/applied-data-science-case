@@ -1,0 +1,37 @@
+série,alvo,modelo,MAE,WAPE_%,viés relativo %,posto teste,posto backtest,posto estabilidade,escore,passa filtro de viés,escolhido,base do escore
+Máquina 1,demanda,Holt-Winters,3.2408,22.3503,8.03379,2,1,1,1.4,True,True,teste + backtest (11 origens) + estabilidade
+Máquina 1,demanda,Média 4 semanas,3.17857,21.9212,2.21675,1,3,5,2.7,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,demanda,SARIMAX,3.32549,22.9344,1.76251,3,5,2,3.45,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,demanda,Poisson/NB2,3.48813,24.056,1.02623,4,4,2,3.5,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,demanda,Random Forest,3.86968,26.6874,-5.84283,6,2,2,3.6,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,demanda,Naive sazonal,3.5,24.1379,0.492611,5,6,6,5.6,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,receita,Holt-Winters,92.7257,20.4188,-3.69322,1,2,2,1.6,True,True,teste + backtest (11 origens) + estabilidade
+Máquina 1,receita,Random Forest,107.977,23.7772,-4.68821,6,1,1,3,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,receita,Média 4 semanas,93.8907,20.6753,1.60625,2,3,5,3.1,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,receita,SARIMAX,99.1139,21.8255,1.89283,3,5,3,3.7,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,receita,Poisson/NB2,100.229,22.071,0.39981,4,4,3,3.75,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 1,receita,Naive sazonal,103.46,22.7825,0.716614,5,6,6,5.6,True,False,teste + backtest (11 origens) + estabilidade
+Máquina 2,demanda,Random Forest,2.26136,41.1156,8.2806,1,1,2,1.25,True,True,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,demanda,Média 4 semanas,2.92857,53.2468,4.54545,5,2,1,2.95,True,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,demanda,SARIMAX,2.41837,43.9703,11.6883,2,5,4,3.55,True,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,demanda,Poisson/NB2,2.43657,44.3013,12.2708,3,4,5,3.85,True,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,demanda,Holt-Winters,3.04287,55.3249,10.3887,6,3,3,4.2,True,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,demanda,Naive sazonal,2.78571,50.6494,-19.4805,4,6,6,5.2,False,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,receita,Random Forest,54.9278,37.2753,5.76337,1,3,2,1.95,True,True,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,receita,Média 4 semanas,75.2143,51.0422,1.47843,5,1,1,2.6,True,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,receita,Poisson/NB2,58.5977,39.7658,8.99077,2,4,4,3.2,True,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,receita,Holt-Winters,79.5521,53.9859,7.26029,6,2,3,3.85,True,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,receita,SARIMAX,58.621,39.7816,9.20636,3,5,5,4.2,True,False,teste + validação interna + |viés| (sem histórico para backtest)
+Máquina 2,receita,Naive sazonal,71.2143,48.3277,-21.6675,4,6,6,5.2,False,False,teste + validação interna + |viés| (sem histórico para backtest)
+Total,demanda,SARIMAX,4.12941,20.6471,-6.0467,2,1,1,1.4,True,True,teste + backtest (11 origens) + estabilidade
+Total,demanda,Holt-Winters,4.20503,21.0252,-5.77735,3,3,1,2.5,True,False,teste + backtest (11 origens) + estabilidade
+Total,demanda,Random Forest,3.87548,19.3774,1.09697,1,4,4,2.8,True,False,teste + backtest (11 origens) + estabilidade
+Total,demanda,Poisson/NB2,4.5613,22.8065,4.5317,5,2,1,2.95,True,False,teste + backtest (11 origens) + estabilidade
+Total,demanda,Média 4 semanas,4.21429,21.0714,2.85714,4,5,5,4.6,True,False,teste + backtest (11 origens) + estabilidade
+Total,demanda,Naive sazonal,5.14286,25.7143,-5,6,6,6,6,True,False,teste + backtest (11 origens) + estabilidade
+Total,receita,SARIMAX,117.088,19.4667,-1.36812,1,4,1,2.05,True,True,teste + backtest (11 origens) + estabilidade
+Total,receita,Holt-Winters,126.306,20.9993,-6.88497,4,2,1,2.55,True,False,teste + backtest (11 origens) + estabilidade
+Total,receita,Poisson/NB2,128.387,21.3452,3.229,5,1,1,2.6,True,False,teste + backtest (11 origens) + estabilidade
+Total,receita,Random Forest,118.011,19.6202,-4.61314,2,3,4,2.85,True,False,teste + backtest (11 origens) + estabilidade
+Total,receita,Média 4 semanas,122.419,20.353,1.57493,3,5,5,4.2,True,False,teste + backtest (11 origens) + estabilidade
+Total,receita,Naive sazonal,153.666,25.5481,-4.76731,6,6,6,6,True,False,teste + backtest (11 origens) + estabilidade

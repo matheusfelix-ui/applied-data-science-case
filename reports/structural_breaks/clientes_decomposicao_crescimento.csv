@@ -1,0 +1,5 @@
+grupo,transações/dia antes,transações/dia depois,Δ transações/dia,% do crescimento
+novos (1ª compra após a quebra),0,13,13,176.191
+recorrentes (já vistos antes),7.01786,1.39623,-5.62163,-76.1907
+sem cartão,0,0,0,0
+total,7.01786,14.3962,7.37837,100

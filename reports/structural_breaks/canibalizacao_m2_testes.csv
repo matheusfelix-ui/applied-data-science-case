@@ -1,0 +1,15 @@
+,valor
+pré-período,30/01–07/02/2025
+média M1 pré,14.222222222222221
+média M1 pós,14.431818181818182
+IRR (pós M2),1.0630620361074095
+IC95% inf (pós M2),0.9288490708863483
+IC95% sup (pós M2),1.2166679475002755
+p (pós M2),0.3744933397894983
+ρ Spearman M1 × M2 (diário),-0.1096069763552158
+p (nula circular),0.8181818181818182
+IRR (interação pós × fim de semana),0.7582218518566539
+IC95% inf (interação pós × fim de semana),0.5601282582958245
+IC95% sup (interação pós × fim de semana),1.0263727425251727
+p (interação pós × fim de semana),0.07321688573960178
+χ² composição p,1.0517985726965791e-08

@@ -1,0 +1,1380 @@
+{
+ "imagens": {
+  "perfis": {
+   "path": "../../structural_breaks/identificacao_maquinas/perfis_periodo_comum.png",
+   "ratio": 3.691542288557214
+  },
+  "evolucao": {
+   "path": "../../eda/02_evolucao.png",
+   "ratio": 1.5938137321549966
+  },
+  "quebras": {
+   "path": "../../structural_breaks/01_quebras_nivel.png",
+   "ratio": 2.1639344262295084
+  },
+  "clientes": {
+   "path": "../../structural_breaks/03_novos_clientes.png",
+   "ratio": 3.266896551724138
+  },
+  "canib_horario": {
+   "path": "../../structural_breaks/04_canibalizacao_horario.png",
+   "ratio": 2.987769784172662
+  },
+  "canib_m2": {
+   "path": "../../structural_breaks/05_canibalizacao_entrada_m2.png",
+   "ratio": 3.858687815428983
+  },
+  "backtest": {
+   "path": "../../model_comparison/02_backtest_mase.png",
+   "ratio": 4.20450885668277
+  },
+  "prev_m1_m2": {
+   "path": "../../forecasts/previsoes_14_dias_m1_m2.png",
+   "ratio": 1.9049773755656108
+  },
+  "janela": {
+   "path": "../../structural_breaks/02_janela_vendas.png",
+   "ratio": 2.175464320625611
+  },
+  "total_soma": {
+   "path": "../../forecasts/total/total_direto_vs_soma_maquinas.png",
+   "ratio": 3.418705035971223
+  }
+ },
+ "escolhidos": [
+  {
+   "serie": "Máquina 1",
+   "alvo": "demanda",
+   "modelo": "Holt-Winters",
+   "wape": 22.4,
+   "mae": 3.24,
+   "vies": 8.0,
+   "mae_vs_naive": -7.0,
+   "wape_media4": 21.9,
+   "mase_bt": 0.765,
+   "p_holm_naive": 0.074
+  },
+  {
+   "serie": "Máquina 1",
+   "alvo": "receita",
+   "modelo": "Holt-Winters",
+   "wape": 20.4,
+   "mae": 92.73,
+   "vies": -3.7,
+   "mae_vs_naive": -10.0,
+   "wape_media4": 20.7,
+   "mase_bt": 0.823,
+   "p_holm_naive": 0.321
+  },
+  {
+   "serie": "Máquina 2",
+   "alvo": "demanda",
+   "modelo": "Random Forest",
+   "wape": 41.1,
+   "mae": 2.26,
+   "vies": 8.3,
+   "mae_vs_naive": -19.0,
+   "wape_media4": 53.2,
+   "mase_bt": null,
+   "p_holm_naive": null
+  },
+  {
+   "serie": "Máquina 2",
+   "alvo": "receita",
+   "modelo": "Random Forest",
+   "wape": 37.3,
+   "mae": 54.93,
+   "vies": 5.8,
+   "mae_vs_naive": -23.0,
+   "wape_media4": 51.0,
+   "mase_bt": null,
+   "p_holm_naive": null
+  },
+  {
+   "serie": "Total",
+   "alvo": "demanda",
+   "modelo": "SARIMAX",
+   "wape": 20.6,
+   "mae": 4.13,
+   "vies": -6.0,
+   "mae_vs_naive": -20.0,
+   "wape_media4": 21.1,
+   "mase_bt": 0.887,
+   "p_holm_naive": 0.001
+  },
+  {
+   "serie": "Total",
+   "alvo": "receita",
+   "modelo": "SARIMAX",
+   "wape": 19.5,
+   "mae": 117.09,
+   "vies": -1.4,
+   "mae_vs_naive": -24.0,
+   "wape_media4": 20.4,
+   "mase_bt": 0.922,
+   "p_holm_naive": 0.005
+  }
+ ],
+ "dm_m2_p_min": 0.43,
+ "piso_ruido": {
+  "Máquina 1": 21.0,
+  "Máquina 2": 32.0,
+  "Total": 17.0
+ },
+ "total_soma": [
+  {
+   "alvo": "demanda",
+   "abordagem": "Total direto",
+   "MAE": 4.13,
+   "RMSE": 4.62,
+   "MAPE_%": 24.15,
+   "sMAPE_%": 22.36,
+   "WAPE_%": 20.65,
+   "R2": 0.22,
+   "ME": -1.21,
+   "ME_relativo_%": -6.05,
+   "MASE": 0.85
+  },
+  {
+   "alvo": "demanda",
+   "abordagem": "Soma M1 + M2",
+   "MAE": 3.59,
+   "RMSE": 4.88,
+   "MAPE_%": 22.03,
+   "sMAPE_%": 19.01,
+   "WAPE_%": 17.95,
+   "R2": 0.13,
+   "ME": 1.62,
+   "ME_relativo_%": 8.1,
+   "MASE": 0.74
+  },
+  {
+   "alvo": "demanda",
+   "abordagem": "diferença média futura (direto − soma)",
+   "MAE": null,
+   "RMSE": null,
+   "MAPE_%": null,
+   "sMAPE_%": null,
+   "WAPE_%": null,
+   "R2": null,
+   "ME": 0.77,
+   "ME_relativo_%": null,
+   "MASE": null
+  },
+  {
+   "alvo": "receita",
+   "abordagem": "Total direto",
+   "MAE": 117.09,
+   "RMSE": 135.08,
+   "MAPE_%": 23.58,
+   "sMAPE_%": 21.76,
+   "WAPE_%": 19.47,
+   "R2": 0.28,
+   "ME": -8.23,
+   "ME_relativo_%": -1.37,
+   "MASE": 0.76
+  },
+  {
+   "alvo": "receita",
+   "abordagem": "Soma M1 + M2",
+   "MAE": 107.33,
+   "RMSE": 124.05,
+   "MAPE_%": 20.64,
+   "sMAPE_%": 19.11,
+   "WAPE_%": 17.84,
+   "R2": 0.39,
+   "ME": -8.28,
+   "ME_relativo_%": -1.38,
+   "MASE": 0.7
+  },
+  {
+   "alvo": "receita",
+   "abordagem": "diferença média futura (direto − soma)",
+   "MAE": null,
+   "RMSE": null,
+   "MAPE_%": null,
+   "sMAPE_%": null,
+   "WAPE_%": null,
+   "R2": null,
+   "ME": -53.07,
+   "ME_relativo_%": null,
+   "MASE": null
+  }
+ ],
+ "futuro": {
+  "machine_1": {
+   "demanda": {
+    "media": 15.0,
+    "soma": 210.0,
+    "modelo": "Holt-Winters",
+    "inicio": "2025-03-24",
+    "fim": "2025-04-06"
+   },
+   "receita": {
+    "media": 514.1,
+    "soma": 7198.0,
+    "modelo": "Holt-Winters",
+    "inicio": "2025-03-24",
+    "fim": "2025-04-06"
+   }
+  },
+  "machine_2": {
+   "demanda": {
+    "media": 6.3,
+    "soma": 88.0,
+    "modelo": "Random Forest",
+    "inicio": "2025-03-24",
+    "fim": "2025-04-06"
+   },
+   "receita": {
+    "media": 165.4,
+    "soma": 2316.0,
+    "modelo": "Random Forest",
+    "inicio": "2025-03-24",
+    "fim": "2025-04-06"
+   }
+  },
+  "total": {
+   "demanda": {
+    "media": 22.1,
+    "soma": 309.0,
+    "modelo": "SARIMAX",
+    "inicio": "2025-03-24",
+    "fim": "2025-04-06"
+   },
+   "receita": {
+    "media": 626.5,
+    "soma": 8771.0,
+    "modelo": "SARIMAX",
+    "inicio": "2025-03-24",
+    "fim": "2025-04-06"
+   }
+  },
+  "soma": {
+   "demanda": {
+    "media": 21.3,
+    "soma": 298.0
+   },
+   "receita": {
+    "media": 679.5,
+    "soma": 9514.0
+   }
+  }
+ },
+ "semanal_m1": {
+  "dias": [
+   "seg",
+   "ter",
+   "qua",
+   "qui",
+   "sex",
+   "sáb",
+   "dom"
+  ],
+  "periodos": [
+   "antes de 30/01/2025",
+   "desde 30/01/2025"
+  ],
+  "valores": [
+   [
+    1.9,
+    16.4,
+    -10.5,
+    0.7,
+    -2.7,
+    2.0,
+    -7.7
+   ],
+   [
+    38.9,
+    1.2,
+    35.9,
+    0.7,
+    24.2,
+    -41.0,
+    -50.5
+   ]
+  ],
+  "testes": [
+   {
+    "período": "antes de 30/01/2025",
+    "dias": 335,
+    "F (dia da semana | regime)": 1.7595,
+    "p": 0.1068,
+    "R² parcial do dia da semana": 0.0314,
+    "fim de semana vs dias úteis (%)": -3.9906
+   },
+   {
+    "período": "desde 30/01/2025",
+    "dias": 53,
+    "F (dia da semana | regime)": 25.7491,
+    "p": 0.0,
+    "R² parcial do dia da semana": 0.7706,
+    "fim de semana vs dias úteis (%)": -54.6924
+   }
+  ]
+ },
+ "fds_m2_pct": 41.0,
+ "ticket_semanal": {
+  "rotulos": [
+   "03/03/24",
+   "10/03/24",
+   "17/03/24",
+   "24/03/24",
+   "31/03/24",
+   "07/04/24",
+   "14/04/24",
+   "21/04/24",
+   "28/04/24",
+   "05/05/24",
+   "12/05/24",
+   "19/05/24",
+   "26/05/24",
+   "02/06/24",
+   "09/06/24",
+   "16/06/24",
+   "23/06/24",
+   "30/06/24",
+   "07/07/24",
+   "14/07/24",
+   "21/07/24",
+   "28/07/24",
+   "04/08/24",
+   "11/08/24",
+   "18/08/24",
+   "25/08/24",
+   "01/09/24",
+   "08/09/24",
+   "15/09/24",
+   "22/09/24",
+   "29/09/24",
+   "06/10/24",
+   "13/10/24",
+   "20/10/24",
+   "27/10/24",
+   "03/11/24",
+   "10/11/24",
+   "17/11/24",
+   "24/11/24",
+   "01/12/24",
+   "08/12/24",
+   "15/12/24",
+   "22/12/24",
+   "29/12/24",
+   "05/01/25",
+   "12/01/25",
+   "19/01/25",
+   "26/01/25",
+   "02/02/25",
+   "09/02/25",
+   "16/02/25",
+   "23/02/25",
+   "02/03/25",
+   "09/03/25",
+   "16/03/25",
+   "23/03/25"
+  ],
+  "m1": [
+   34.77,
+   34.73,
+   32.26,
+   34.42,
+   35.3,
+   34.15,
+   34.71,
+   34.7,
+   33.82,
+   34.24,
+   34.12,
+   33.03,
+   33.88,
+   34.73,
+   34.02,
+   34.0,
+   34.13,
+   34.28,
+   32.07,
+   29.23,
+   29.36,
+   27.99,
+   28.24,
+   28.93,
+   27.98,
+   27.13,
+   27.51,
+   28.09,
+   28.88,
+   28.68,
+   30.25,
+   31.98,
+   31.95,
+   33.6,
+   32.14,
+   32.57,
+   33.11,
+   33.45,
+   33.42,
+   33.49,
+   31.73,
+   31.32,
+   32.66,
+   30.95,
+   31.5,
+   31.91,
+   33.36,
+   31.39,
+   31.49,
+   31.41,
+   31.25,
+   30.64,
+   31.29,
+   31.39,
+   31.69,
+   30.99
+  ],
+  "m2": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   26.67,
+   26.0,
+   26.41,
+   25.6,
+   26.06,
+   26.67,
+   26.9
+  ]
+ },
+ "ticket_publico": {
+  "M1 · base anterior (mesma tabela)": {
+   "ticket": 32.5,
+   "noite": 21.0
+  },
+  "M1 · desde a quebra (todos)": {
+   "ticket": 31.3,
+   "noite": 9.0
+  },
+  "M1 · desde a quebra, cartões novos": {
+   "ticket": 31.5,
+   "noite": 9.0
+  },
+  "M1 · desde a quebra, cartões antigos": {
+   "ticket": 29.6,
+   "noite": 9.0
+  },
+  "M2 · desde a abertura": {
+   "ticket": 26.3,
+   "noite": 18.0
+  }
+ },
+ "ticket_resumo": {
+  "var_m1": -3.6,
+  "m2_vs_m1": -16.0,
+  "ultima_tabela": "2024-10-06"
+ },
+ "mix_m1": {
+  "Latte": {
+   "antes": 25.0,
+   "depois": 15.0,
+   "preco": 35.8
+  },
+  "Cortado": {
+   "antes": 9.0,
+   "depois": 2.0,
+   "preco": 26.0
+  },
+  "Hot chocolate": {
+   "antes": 11.0,
+   "depois": 7.0,
+   "preco": 35.8
+  },
+  "Americano with milk": {
+   "antes": 21.0,
+   "depois": 19.0,
+   "preco": 30.9
+  },
+  "Espresso": {
+   "antes": 3.0,
+   "depois": 4.0,
+   "preco": 21.1
+  },
+  "Cappuccino": {
+   "antes": 12.0,
+   "depois": 13.0,
+   "preco": 35.8
+  },
+  "Cocoa": {
+   "antes": 9.0,
+   "depois": 11.0,
+   "preco": 35.8
+  },
+  "Americano": {
+   "antes": 10.0,
+   "depois": 29.0,
+   "preco": 26.0
+  }
+ },
+ "desconto_m2": {
+  "Americano": -4.0,
+  "Americano with milk": -19.0,
+  "Cappuccino": -16.0,
+  "Espresso": -5.0,
+  "Latte": -8.0
+ },
+ "concentracao": {
+  "Máquina 1": {
+   "produtos": 8,
+   "produtos para 50% da receita": 3,
+   "produtos para 80% da receita": 5,
+   "% receita dos 3 maiores": 61.66,
+   "produtos com ≤ 5 vendas": 0,
+   "% receita da cauda": 0,
+   "produtos vendidos < 1×/semana": 0
+  },
+  "Máquina 2": {
+   "produtos": 30,
+   "produtos para 50% da receita": 6,
+   "produtos para 80% da receita": 12,
+   "% receita dos 3 maiores": 35.08,
+   "produtos com ≤ 5 vendas": 17,
+   "% receita da cauda": 15.73,
+   "produtos vendidos < 1×/semana": 18
+  },
+  "Total": {
+   "produtos": 33,
+   "produtos para 50% da receita": 3,
+   "produtos para 80% da receita": 5,
+   "% receita dos 3 maiores": 60.12,
+   "produtos com ≤ 5 vendas": 17,
+   "% receita da cauda": 0.89,
+   "produtos vendidos < 1×/semana": 25
+  }
+ },
+ "receita_produtos_total": {
+  "produtos": [
+   "Latte",
+   "Americano with milk",
+   "Cappuccino",
+   "Americano",
+   "Hot chocolate",
+   "Cocoa",
+   "Cortado",
+   "Espresso",
+   "Outros 25 produtos (só M2)"
+  ],
+  "pct": [
+   23.4,
+   21.6,
+   15.1,
+   12.6,
+   8.3,
+   7.1,
+   6.2,
+   2.6,
+   3.1
+  ]
+ },
+ "familias": {
+  "Máquina 1|leite": {
+   "produtos": 4,
+   "vendas": 2399,
+   "pct_vendas": 65.98,
+   "pct_receita": 68.18
+  },
+  "Máquina 1|chocolate/cacau": {
+   "produtos": 2,
+   "vendas": 525,
+   "pct_vendas": 14.44,
+   "pct_receita": 16.33
+  },
+  "Máquina 1|whiskey (aroma)": {
+   "produtos": 0,
+   "vendas": 0,
+   "pct_vendas": 0.0,
+   "pct_receita": 0.0
+  },
+  "Máquina 1|caramelo": {
+   "produtos": 0,
+   "vendas": 0,
+   "pct_vendas": 0.0,
+   "pct_receita": 0.0
+  },
+  "Máquina 1|baunilha": {
+   "produtos": 0,
+   "vendas": 0,
+   "pct_vendas": 0.0,
+   "pct_receita": 0.0
+  },
+  "Máquina 1|chá": {
+   "produtos": 0,
+   "vendas": 0,
+   "pct_vendas": 0.0,
+   "pct_receita": 0.0
+  },
+  "Máquina 2|leite": {
+   "produtos": 9,
+   "vendas": 122,
+   "pct_vendas": 46.56,
+   "pct_receita": 49.64
+  },
+  "Máquina 2|chocolate/cacau": {
+   "produtos": 8,
+   "vendas": 35,
+   "pct_vendas": 13.36,
+   "pct_receita": 14.03
+  },
+  "Máquina 2|whiskey (aroma)": {
+   "produtos": 7,
+   "vendas": 80,
+   "pct_vendas": 30.53,
+   "pct_receita": 31.54
+  },
+  "Máquina 2|caramelo": {
+   "produtos": 5,
+   "vendas": 18,
+   "pct_vendas": 6.87,
+   "pct_receita": 7.1
+  },
+  "Máquina 2|baunilha": {
+   "produtos": 3,
+   "vendas": 6,
+   "pct_vendas": 2.29,
+   "pct_receita": 2.29
+  },
+  "Máquina 2|chá": {
+   "produtos": 1,
+   "vendas": 16,
+   "pct_vendas": 6.11,
+   "pct_receita": 3.48
+  }
+ },
+ "anomalias": {
+  "pico": {
+   "dias": 7,
+   "k": 1,
+   "pct": 14.0,
+   "esperado": 30.0,
+   "p": 0.921
+  },
+  "queda": {
+   "dias": 8,
+   "k": 6,
+   "pct": 75.0,
+   "esperado": 30.0,
+   "p": 0.012
+  }
+ },
+ "duplicados": {
+  "exatas_m2": 2,
+  "grupos_m2": 7,
+  "grupos_dif_m2": 5,
+  "pct_m2": 0.76,
+  "recompras_m1": 316,
+  "pct_m1": 8.69,
+  "min_mesmo": 38.0,
+  "med_mesmo": 62.7,
+  "med_dif": 65.2,
+  "abaixo30": 0
+ },
+ "tendencia": {
+  "Máquina 1": {
+   "dbic": 49.3,
+   "regimes_incl": 1,
+   "regimes": 5,
+   "picos": "62 / 125 / 187",
+   "p_degraus": 0.507,
+   "p_banda": 0.371,
+   "p_ciclo": 0.368,
+   "p_lb": 0.02,
+   "p_dia_mes": 0.236,
+   "fim": "2025-03-09",
+   "incl_ano": 0.86
+  },
+  "Total": {
+   "dbic": 69.6,
+   "regimes_incl": 1,
+   "regimes": 5,
+   "picos": "62 / 125 / 187",
+   "p_degraus": 0.273,
+   "p_banda": 0.199,
+   "p_ciclo": 0.368,
+   "p_lb": 0.06,
+   "p_dia_mes": 0.304,
+   "fim": "2025-03-09",
+   "incl_ano": 1.16
+  }
+ },
+ "degraus_m1": {
+  "rotulos": [
+   "03/03/24",
+   "10/03/24",
+   "17/03/24",
+   "24/03/24",
+   "31/03/24",
+   "07/04/24",
+   "14/04/24",
+   "21/04/24",
+   "28/04/24",
+   "05/05/24",
+   "12/05/24",
+   "19/05/24",
+   "26/05/24",
+   "02/06/24",
+   "09/06/24",
+   "16/06/24",
+   "23/06/24",
+   "30/06/24",
+   "07/07/24",
+   "14/07/24",
+   "21/07/24",
+   "28/07/24",
+   "04/08/24",
+   "11/08/24",
+   "18/08/24",
+   "25/08/24",
+   "01/09/24",
+   "08/09/24",
+   "15/09/24",
+   "22/09/24",
+   "29/09/24",
+   "06/10/24",
+   "13/10/24",
+   "20/10/24",
+   "27/10/24",
+   "03/11/24",
+   "10/11/24",
+   "17/11/24",
+   "24/11/24",
+   "01/12/24",
+   "08/12/24",
+   "15/12/24",
+   "22/12/24",
+   "29/12/24",
+   "05/01/25",
+   "12/01/25",
+   "19/01/25",
+   "26/01/25",
+   "02/02/25",
+   "09/02/25",
+   "16/02/25",
+   "23/02/25",
+   "02/03/25",
+   "09/03/25"
+  ],
+  "demanda": [
+   9.33,
+   7.57,
+   6.71,
+   5.43,
+   5.71,
+   6.0,
+   6.86,
+   7.57,
+   5.29,
+   3.71,
+   7.14,
+   9.43,
+   11.86,
+   10.71,
+   9.0,
+   7.71,
+   8.0,
+   5.29,
+   6.57,
+   4.29,
+   4.86,
+   10.0,
+   13.29,
+   10.43,
+   11.57,
+   8.0,
+   5.14,
+   12.43,
+   8.71,
+   12.86,
+   11.71,
+   11.86,
+   14.14,
+   15.57,
+   13.14,
+   12.29,
+   10.57,
+   10.29,
+   6.29,
+   7.71,
+   8.86,
+   6.14,
+   8.57,
+   7.86,
+   7.71,
+   6.0,
+   7.0,
+   5.29,
+   8.86,
+   15.14,
+   14.29,
+   15.86,
+   14.57,
+   14.57
+  ],
+  "nivel": [
+   6.5,
+   6.5,
+   6.5,
+   6.5,
+   6.5,
+   6.5,
+   6.5,
+   6.5,
+   6.5,
+   6.5,
+   6.5,
+   6.84,
+   7.69,
+   7.69,
+   7.69,
+   7.69,
+   7.69,
+   7.69,
+   7.69,
+   7.69,
+   7.69,
+   10.31,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   11.36,
+   10.19,
+   7.27,
+   7.27,
+   7.27,
+   7.27,
+   7.27,
+   7.27,
+   7.27,
+   7.27,
+   7.27,
+   7.27,
+   11.32,
+   14.36,
+   14.36,
+   14.36,
+   14.36,
+   14.36
+  ],
+  "reta": [
+   6.68,
+   6.74,
+   6.84,
+   6.93,
+   7.03,
+   7.12,
+   7.22,
+   7.31,
+   7.41,
+   7.5,
+   7.59,
+   7.69,
+   7.78,
+   7.88,
+   7.97,
+   8.07,
+   8.16,
+   8.26,
+   8.35,
+   8.44,
+   8.54,
+   8.63,
+   8.73,
+   8.82,
+   8.92,
+   9.01,
+   9.1,
+   9.2,
+   9.29,
+   9.39,
+   9.48,
+   9.58,
+   9.67,
+   9.77,
+   9.86,
+   9.95,
+   10.05,
+   10.14,
+   10.24,
+   10.33,
+   10.43,
+   10.52,
+   10.62,
+   10.71,
+   10.8,
+   10.9,
+   10.99,
+   11.09,
+   11.18,
+   11.28,
+   11.37,
+   11.47,
+   11.56,
+   11.65
+  ]
+ },
+ "semanal_regimes": {
+  "r2_ultimo": 0.771,
+  "p_ultimo": 3.60238e-13,
+  "r2_antes_min": 0.034,
+  "r2_antes_max": 0.118,
+  "p_antes_min": 0.185
+ },
+ "periodograma_m1_2025": {
+  "periodo": [
+   51.0,
+   25.5,
+   17.0,
+   12.75,
+   10.2,
+   8.5,
+   7.29,
+   6.38,
+   5.67,
+   5.1,
+   4.64,
+   4.25,
+   3.92,
+   3.64,
+   3.4,
+   3.19,
+   3.0,
+   2.83,
+   2.68,
+   2.55,
+   2.43,
+   2.32,
+   2.22,
+   2.12,
+   2.04
+  ],
+  "ordenada": [
+   0.0,
+   0.0091,
+   0.0037,
+   0.0126,
+   0.015,
+   0.0163,
+   0.3808,
+   0.0013,
+   0.0143,
+   0.0098,
+   0.0025,
+   0.0048,
+   0.0026,
+   0.1254,
+   0.072,
+   0.0044,
+   0.015,
+   0.0013,
+   0.0123,
+   0.0029,
+   0.0009,
+   0.2385,
+   0.0048,
+   0.0246,
+   0.0252
+  ],
+  "g_alfa": 0.228,
+  "pico": 6
+ },
+ "fisher_2025": {
+  "m1_fev": {
+   "p": 0.000251878,
+   "g": 0.381,
+   "g_alfa": 0.228,
+   "pico": 7.29,
+   "fundamental": 7,
+   "dias": 51,
+   "achou_7": true
+  },
+  "total_fev": {
+   "p": 0.00319112,
+   "g": 0.312,
+   "g_alfa": 0.228,
+   "pico": 2.32,
+   "fundamental": 7,
+   "dias": 51,
+   "achou_7": true
+  },
+  "m1_quebra": {
+   "p": 0.0260988,
+   "g": 0.241,
+   "g_alfa": 0.221,
+   "pico": 7.57,
+   "fundamental": 7,
+   "dias": 53,
+   "achou_7": true
+  },
+  "m1_jan": {
+   "p": 0.0524332,
+   "g": 0.156,
+   "g_alfa": 0.157,
+   "pico": 7.45,
+   "fundamental": 7,
+   "dias": 82,
+   "achou_7": false
+  },
+  "m1_mar": {
+   "p": 0.162583,
+   "g": 0.344,
+   "g_alfa": 0.417,
+   "pico": 7.67,
+   "fundamental": 7,
+   "dias": 23,
+   "achou_7": false
+  },
+  "m1_fev_treino": {
+   "p": 0.0346475,
+   "g": 0.308,
+   "g_alfa": 0.293,
+   "pico": 7.4,
+   "fundamental": 7,
+   "dias": 37,
+   "achou_7": true
+  },
+  "m2_fev": {
+   "p": 0.574591,
+   "g": 0.158,
+   "g_alfa": 0.261,
+   "pico": 2.44,
+   "fundamental": 7,
+   "dias": 44,
+   "achou_7": false
+  }
+ },
+ "perfil_fisher_m1_2025": {
+  "seg": 5.1,
+  "ter": -0.3,
+  "qua": 4.7,
+  "qui": 0.4,
+  "sex": 3.9,
+  "sáb": -6.2,
+  "dom": -7.5
+ },
+ "horario": {
+  "data": "2024-05-14",
+  "data_treino": "2024-05-18",
+  "fora_antes": 12.0,
+  "fora_depois": 40.0,
+  "irr_total": 1.45,
+  "p_total": 0.001,
+  "irr_nucleo": 0.92,
+  "p_nucleo": 0.51
+ },
+ "atributos": {
+  "n": {
+   "Máquina 1": 39,
+   "Máquina 2": 35,
+   "Total": 38
+  },
+  "testes_ok": true,
+  "jan_min": 24.0,
+  "jan_max": 42.0,
+  "outros_max": 2.4,
+  "irr_horario": 0.71,
+  "irr_novos": 1.55,
+  "daic_m1": -56.0,
+  "daic_total": -113.0,
+  "exog_total": "maquinas_ativas, data_comercial, inicio_mes, dummy_novos_clientes"
+ },
+ "qualidade": [
+  {
+   "série": "Máquina 1",
+   "alvo": "demanda",
+   "modelo": "Holt-Winters",
+   "MAE": 3.2408,
+   "RMSE": 4.1174,
+   "MAPE_%": 25.3569,
+   "sMAPE_%": 22.6222,
+   "WAPE_%": 22.3503,
+   "R2": 0.4474,
+   "ME": 1.1649,
+   "ME_relativo_%": 8.0338,
+   "cobertura_80_%": 92.8571,
+   "cobertura_95_%": 100.0,
+   "largura_95": 19.9619,
+   "winkler_95": 19.9619,
+   "MASE backtest": 0.765,
+   "Ljung-Box p (erros de teste)": 0.4204
+  },
+  {
+   "série": "Máquina 1",
+   "alvo": "receita",
+   "modelo": "Holt-Winters",
+   "MAE": 92.7257,
+   "RMSE": 111.683,
+   "MAPE_%": 21.8422,
+   "sMAPE_%": 21.2829,
+   "WAPE_%": 20.4188,
+   "R2": 0.5531,
+   "ME": -16.7717,
+   "ME_relativo_%": -3.6932,
+   "cobertura_80_%": 85.7143,
+   "cobertura_95_%": 100.0,
+   "largura_95": 562.747,
+   "winkler_95": 562.747,
+   "MASE backtest": 0.8227,
+   "Ljung-Box p (erros de teste)": 0.4472
+  },
+  {
+   "série": "Máquina 2",
+   "alvo": "demanda",
+   "modelo": "Random Forest",
+   "MAE": 2.2614,
+   "RMSE": 2.711,
+   "MAPE_%": null,
+   "sMAPE_%": 45.3899,
+   "WAPE_%": 41.1156,
+   "R2": 0.0603,
+   "ME": 0.4554,
+   "ME_relativo_%": 8.2806,
+   "cobertura_80_%": 100.0,
+   "cobertura_95_%": 100.0,
+   "largura_95": 16.7716,
+   "winkler_95": 16.7716,
+   "MASE backtest": null,
+   "Ljung-Box p (erros de teste)": 0.212
+  },
+  {
+   "série": "Máquina 2",
+   "alvo": "receita",
+   "modelo": "Random Forest",
+   "MAE": 54.9278,
+   "RMSE": 67.6405,
+   "MAPE_%": null,
+   "sMAPE_%": 42.3619,
+   "WAPE_%": 37.2753,
+   "R2": 0.0687,
+   "ME": 8.4928,
+   "ME_relativo_%": 5.7634,
+   "cobertura_80_%": 100.0,
+   "cobertura_95_%": 100.0,
+   "largura_95": 394.329,
+   "winkler_95": 394.329,
+   "MASE backtest": null,
+   "Ljung-Box p (erros de teste)": 0.1839
+  },
+  {
+   "série": "Total",
+   "alvo": "demanda",
+   "modelo": "SARIMAX",
+   "MAE": 4.1294,
+   "RMSE": 4.6241,
+   "MAPE_%": 24.1522,
+   "sMAPE_%": 22.3561,
+   "WAPE_%": 20.6471,
+   "R2": 0.2164,
+   "ME": -1.2093,
+   "ME_relativo_%": -6.0467,
+   "cobertura_80_%": 92.8571,
+   "cobertura_95_%": 100.0,
+   "largura_95": 21.9299,
+   "winkler_95": 21.9299,
+   "MASE backtest": 0.8871,
+   "Ljung-Box p (erros de teste)": 0.4325
+  },
+  {
+   "série": "Total",
+   "alvo": "receita",
+   "modelo": "SARIMAX",
+   "MAE": 117.088,
+   "RMSE": 135.085,
+   "MAPE_%": 23.5749,
+   "sMAPE_%": 21.7583,
+   "WAPE_%": 19.4667,
+   "R2": 0.2794,
+   "ME": -8.2289,
+   "ME_relativo_%": -1.3681,
+   "cobertura_80_%": 71.4286,
+   "cobertura_95_%": 100.0,
+   "largura_95": 586.383,
+   "winkler_95": 586.383,
+   "MASE backtest": 0.9216,
+   "Ljung-Box p (erros de teste)": 0.0999
+  },
+  {
+   "série": "Total",
+   "alvo": "demanda",
+   "modelo": "Soma M1 + M2",
+   "MAE": 3.5904,
+   "RMSE": 4.8819,
+   "MAPE_%": 22.0341,
+   "sMAPE_%": 19.0077,
+   "WAPE_%": 17.9523,
+   "R2": 0.1265,
+   "ME": 1.6203,
+   "ME_relativo_%": 8.1016,
+   "cobertura_80_%": null,
+   "cobertura_95_%": null,
+   "largura_95": null,
+   "winkler_95": null,
+   "MASE backtest": null,
+   "Ljung-Box p (erros de teste)": null
+  },
+  {
+   "série": "Total",
+   "alvo": "receita",
+   "modelo": "Soma M1 + M2",
+   "MAE": 107.333,
+   "RMSE": 124.048,
+   "MAPE_%": 20.6377,
+   "sMAPE_%": 19.1108,
+   "WAPE_%": 17.8448,
+   "R2": 0.3924,
+   "ME": -8.2789,
+   "ME_relativo_%": -1.3764,
+   "cobertura_80_%": null,
+   "cobertura_95_%": null,
+   "largura_95": null,
+   "winkler_95": null,
+   "MASE backtest": null,
+   "Ljung-Box p (erros de teste)": null
+  }
+ ],
+ "importancia": {
+  "grupos": [
+   "Médias móveis (7/14/30 dias)",
+   "Defasagens (1–28 dias)",
+   "Calendário",
+   "Dummies de quebra",
+   "Comportamentais",
+   "Tendência"
+  ],
+  "m1": [
+   25.7,
+   -0.8,
+   -0.2,
+   -0.3,
+   -3.6,
+   -1.1
+  ],
+  "total": [
+   34.1,
+   -0.6,
+   -1.8,
+   -0.5,
+   1.2,
+   -0.6
+  ],
+  "receita_jan": {
+   "Máquina 1": 24.0,
+   "Total": 42.0
+  }
+ },
+ "evidencia": {
+  "modelos": [
+   "Naive",
+   "Média 4 sem.",
+   "Holt-Winters",
+   "SARIMAX",
+   "Poisson/NB2",
+   "Random Forest"
+  ],
+  "m1_dem": [
+   1.008,
+   0.854,
+   0.765,
+   0.977,
+   0.895,
+   0.82
+  ],
+  "m1_rec": [
+   1.024,
+   0.865,
+   0.823,
+   1.013,
+   0.892,
+   0.787
+  ],
+  "m2_val": [
+   1.0,
+   0.749,
+   0.749,
+   0.768,
+   0.754,
+   0.727
+  ],
+  "m2_teste": [
+   1.0,
+   1.051,
+   1.092,
+   0.868,
+   0.875,
+   0.812
+  ],
+  "m2_teste_rec": [
+   1.0,
+   1.056,
+   1.117,
+   0.823,
+   0.823,
+   0.771
+  ],
+  "total_signif": 4,
+  "total_p_max": 0.005
+ }
+}
